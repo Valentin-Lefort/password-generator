@@ -43,6 +43,7 @@ export default function Home() {
       <Head>
         <title>Générateur de Mot de Passe Sécurisé</title>
         <meta name="description" content="Créez un mot de passe sécurisé et robuste en un clic." />
+        <meta name="google-adsense-account" content="ca-pub-2846846678326160"></meta>
       </Head>
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
       <AdBanner /> {}
