@@ -45,7 +45,7 @@ export default function Home() {
         <meta name="description" content="Créez un mot de passe sécurisé et robuste en un clic." />
       </Head>
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
-      <AdBanner /> {/* Ici tu ajoutes la publicité */}
+      <AdBanner /> {}
         <h1 className="text-3xl font-bold mb-4 text-blue-600">Générateur de Mot de Passe</h1>
         <div className="bg-white text-blue-500 p-6 rounded-lg shadow-lg w-full max-w-lg">
           <div className="mb-4">
