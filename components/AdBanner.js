@@ -1,19 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 const AdBanner = () => {
-  const [isClient, setIsClient] = useState(false);
-
   useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  useEffect(() => {
-    if (isClient) {
+    try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense error:", e);
     }
-  }, [isClient]);
-
-  if (!isClient) return null;
+  }, []);
 
   return (
     <div className="my-4">
