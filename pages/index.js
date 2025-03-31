@@ -41,10 +41,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Générateur de Mot de Passe Sécurisé</title>
-        <meta name="description" content="Créez un mot de passe sécurisé et robuste en un clic." />
-        <meta name="google-adsense-account" content="ca-pub-2846846678326160"></meta>
-      </Head>
+  <title>🔒 Générateur de mots de passe sécurisé - Gratuit & Facile</title>
+  <meta name="description" content="Générez gratuitement des mots de passe sécurisés et robustes en un clic. Excluez les caractères similaires, choisissez la longueur et personnalisez votre mot de passe." />
+  <meta name="keywords" content="générateur de mot de passe, mot de passe sécurisé, password generator, générer un mot de passe" />
+  <meta property="og:title" content="🔒 Générateur de mots de passe sécurisé - Gratuit & Facile" />
+  <meta property="og:description" content="Créez un mot de passe sécurisé et robuste en un clic. Simple, rapide et 100% gratuit." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://password-generator-phi-ruddy-95.vercel.app/" />
+</Head>
+
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4 relative">
         {/* Pub horizontale en haut */}
         <div className="w-full flex justify-center mb-4">
@@ -52,6 +57,12 @@ export default function Home() {
         </div>
 
         <h1 className="text-3xl font-bold mb-4 text-blue-600">Générateur de Mot de Passe</h1>
+        <p className="text-gray-700 text-center max-w-2xl mb-4">
+  Notre générateur de mots de passe vous permet de créer des codes sécurisés et difficiles à deviner & déchiffrer . 
+  Vous pouvez choisir la longueur, inclure des majuscules, des chiffres et des symboles. 
+  Protégez vos comptes en ligne avec un mot de passe fort et unique.
+</p>
+
         <div className="bg-white text-blue-500 p-6 rounded-lg shadow-lg w-full max-w-lg">
           <div className="mb-4">
             <label className="block text-lg">Longueur : {length}</label>

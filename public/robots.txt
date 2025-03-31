@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://password-generator-phi-ruddy-95.vercel.app/sitemap.xml
