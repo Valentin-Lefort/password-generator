@@ -48,7 +48,11 @@ export default function Home() {
   <meta property="og:description" content="Créez un mot de passe sécurisé et robuste en un clic. Simple, rapide et 100% gratuit." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://password-generator-phi-ruddy-95.vercel.app/" />
-</Head>
+
+  <link rel="icon" href="/cadenas.png" sizes="any" />
+        <link rel="icon" href="../public/cadenas.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+  </Head>
 
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4 relative">
         {/* Pub horizontale en haut */}
