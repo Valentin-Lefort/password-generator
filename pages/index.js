@@ -5,6 +5,7 @@ import LangSwitcher from "../components/LangSwitcher";
 import AdBanner from "../components/AdBanner";
 
 
+
 export default function Home() {
   const { t } = useTranslation('common');
 
@@ -53,9 +54,12 @@ export default function Home() {
 
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
         <AdBanner />
-        <LangSwitcher />
 
-        <h1 className="text-3xl font-bold mb-4 text-blue-600">{t('title')}</h1>
+        <div className="flex items-center mb-4">
+    <h1 className="text-3xl font-bold text-blue-600">{t('title')}</h1>
+
+      <LangSwitcher />
+  </div>
 
         <p className="text-gray-700 text-center max-w-2xl mb-4">{t('explanation')}</p>
 
