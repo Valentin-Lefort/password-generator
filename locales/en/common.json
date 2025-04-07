@@ -1,0 +1,15 @@
+{
+    "title": "Secure Password Generator",
+    "description": "Create a strong and secure password in one click.",
+    "length": "Length",
+    "uppercase": "Uppercase",
+    "lowercase": "Lowercase",
+    "numbers": "Numbers",
+    "symbols": "Symbols",
+    "excludeSimilar": "Exclude similar characters",
+    "explanation" : "Our password generator allows you to create secure codes that are hard to guess and decrypt. You can choose the length, include uppercase letters, numbers, and symbols. Protect your online accounts with a strong and unique password.",
+    "generate": "Generate password",
+    "generateMultiple": "Generate 5 passwords",
+    "clickToCopy": "Click to copy"
+  }
+  

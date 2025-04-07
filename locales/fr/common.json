@@ -1,0 +1,15 @@
+{
+    "title": "Générateur de Mot de Passe Sécurisé",
+    "description": "Créez un mot de passe fort et sécurisé en un clic.",
+    "length": "Longueur",
+    "uppercase": "Majuscules",
+    "lowercase": "Minuscules",
+    "numbers": "Chiffres",
+    "symbols": "Symboles",
+    "excludeSimilar": "Exclure les caractères similaires",
+    "explanation": "Notre générateur de mots de passe vous permet de créer des codes sécurisés et difficiles à deviner & déchiffrer. Vous pouvez choisir la longueur, inclure des majuscules, des chiffres et des symboles. Protégez vos comptes en ligne avec un mot de passe fort et unique",
+    "generate": "Générer un mot de passe",
+    "generateMultiple": "Générer 5 mots de passe",
+    "clickToCopy": "Cliquez pour copier"
+  }
+  

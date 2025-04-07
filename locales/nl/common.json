@@ -1,0 +1,15 @@
+{
+    "title": "Veilige Wachtwoordgenerator",
+    "description": "Genereer een sterk en veilig wachtwoord met één klik.",
+    "length": "Lengte",
+    "uppercase": "Hoofdletters",
+    "lowercase": "Kleine letters",
+    "numbers": "Cijfers",
+    "symbols": "Symbolen",
+    "excludeSimilar": "Vergelijkbare tekens uitsluiten",
+    "explanation": "Onze wachtwoordgenerator stelt je in staat om veilige en moeilijk te raden en te ontcijferen codes te maken. Je kunt de lengte kiezen, hoofdletters, cijfers en symbolen toevoegen. Bescherm je online accounts met een sterk en uniek wachtwoord.",
+    "generate": "Wachtwoord genereren",
+    "generateMultiple": "Genereer 5 wachtwoorden",
+    "clickToCopy": "Klik om te kopiëren"
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "title": "Generador de Contraseñas Seguras",
+    "description": "Crea una contraseña segura y fuerte con un solo clic.",
+    "length": "Longitud",
+    "uppercase": "Mayúsculas",
+    "lowercase": "Minúsculas",
+    "numbers": "Números",
+    "symbols": "Símbolos",
+    "excludeSimilar": "Excluir caracteres similares",
+    "explanation": "Nuestro generador de contraseñas te permite crear códigos seguros y difíciles de adivinar y descifrar. Puedes elegir la longitud, incluir mayúsculas, números y símbolos. Protege tus cuentas en línea con una contraseña fuerte y única.",
+    "generate": "Generar contraseña",
+    "generateMultiple": "Generar 5 contraseñas",
+    "clickToCopy": "Haz clic para copiar"
+  }
+  

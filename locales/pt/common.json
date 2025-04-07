@@ -1,0 +1,15 @@
+{
+    "title": "Gerador de Senha Seguro",
+    "description": "Gere uma senha forte e segura com um clique.",
+    "length": "Comprimento",
+    "uppercase": "Letras maiúsculas",
+    "lowercase": "Letras minúsculas",
+    "numbers": "Números",
+    "symbols": "Símbolos",
+    "excludeSimilar": "Excluir caracteres semelhantes",
+    "explanation": "Nosso gerador de senhas permite criar códigos seguros e difíceis de adivinhar e decifrar. Você pode escolher o comprimento, adicionar letras maiúsculas, números e símbolos. Proteja suas contas online com uma senha forte e única.",
+    "generate": "Gerar Senha",
+    "generateMultiple": "Gerar 5 senhas",
+    "clickToCopy": "Clique para copiar"
+  }
+  

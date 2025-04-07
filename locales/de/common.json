@@ -1,0 +1,15 @@
+{
+    "title": "Sicherer Passwortgenerator",
+    "description": "Erstellen Sie mit einem Klick ein sicheres und starkes Passwort.",
+    "length": "Länge",
+    "uppercase": "Großbuchstaben",
+    "lowercase": "Kleinbuchstaben",
+    "numbers": "Zahlen",
+    "symbols": "Symbole",
+    "excludeSimilar": "Ähnliche Zeichen ausschließen",
+    "explanation": "Unser Passwort-Generator ermöglicht es Ihnen, sichere und schwer zu erratende und zu entschlüsselnde Codes zu erstellen. Sie können die Länge wählen, Großbuchstaben, Zahlen und Symbole einfügen. Schützen Sie Ihre Online-Konten mit einem starken und einzigartigen Passwort.",
+    "generate": "Passwort generieren",
+    "generateMultiple": "5 Passwörter generieren",
+    "clickToCopy": "Zum Kopieren klicken"
+  }
+  
