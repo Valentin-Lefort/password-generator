@@ -1,0 +1,15 @@
+{
+    "title": "Generatori ya Nenosiri Salama",
+    "description": "Tengeneza nenosiri imara na salama kwa kubofya moja.",
+    "length": "Urefu",
+    "uppercase": "Herufi Kubwa",
+    "lowercase": "Herufi Ndogo",
+    "numbers": "Nambari",
+    "symbols": "Alama",
+    "excludeSimilar": "Tenganisha herufi zinazofanana",
+    "explanation": "Generatori yetu ya nenosiri inakuwezesha kutengeneza misimbo salama ambayo ni vigumu kuikisia na kuifungua. Unaweza kuchagua urefu, kuongeza herufi kubwa, nambari, na alama. Linda akaunti zako za mtandaoni kwa nenosiri imara na la kipekee.",
+    "generate": "Tengeneza nenosiri",
+    "generateMultiple": "Tengeneza nenosiri 5",
+    "clickToCopy": "Bofya kunakili"
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "title": "安全密码生成器",
+    "description": "一键创建强大且安全的密码。",
+    "length": "长度",
+    "uppercase": "大写字母",
+    "lowercase": "小写字母",
+    "numbers": "数字",
+    "symbols": "符号",
+    "excludeSimilar": "排除相似字符",
+    "explanation": "我们的密码生成器可以帮助您创建难以猜测和破解的安全代码。您可以选择密码长度，包含大写字母、数字和符号。保护您的在线账户，使用强大且独特的密码。",
+    "generate": "生成密码",
+    "generateMultiple": "生成 5 个密码",
+    "clickToCopy": "点击复制"
+  }
+  

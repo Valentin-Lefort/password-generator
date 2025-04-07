@@ -1,0 +1,15 @@
+{
+    "title": "Güvenli Şifre Üreteci",
+    "description": "Bir tıklamayla güçlü ve güvenli bir şifre oluşturun.",
+    "length": "Uzunluk",
+    "uppercase": "Büyük Harfler",
+    "lowercase": "Küçük Harfler",
+    "numbers": "Rakamlar",
+    "symbols": "Semboller",
+    "excludeSimilar": "Benzer karakterleri hariç tut",
+    "explanation": "Şifre üreticimiz, tahmin edilmesi ve çözülmesi zor güvenli kodlar oluşturmanıza olanak tanır. Uzunluğu seçebilir, büyük harfler, rakamlar ve semboller ekleyebilirsiniz. Güçlü ve benzersiz bir şifre ile çevrimiçi hesaplarınızı koruyun.",
+    "generate": "Şifre oluştur",
+    "generateMultiple": "5 şifre oluştur",
+    "clickToCopy": "Kopyalamak için tıklayın"
+  }
+  

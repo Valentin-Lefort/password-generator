@@ -1,0 +1,15 @@
+{
+    "title": "Bezpieczny generator haseł",
+    "description": "Stwórz mocne i bezpieczne hasło za pomocą jednego kliknięcia.",
+    "length": "Długość",
+    "uppercase": "Wielkie litery",
+    "lowercase": "Małe litery",
+    "numbers": "Cyfry",
+    "symbols": "Symbole",
+    "excludeSimilar": "Wyklucz podobne znaki",
+    "explanation": "Nasz generator haseł umożliwia tworzenie bezpiecznych kodów, które trudno zgadnąć i złamać. Możesz wybrać długość, dodać wielkie litery, cyfry i symbole. Chroń swoje konto online silnym i unikalnym hasłem.",
+    "generate": "Generuj hasło",
+    "generateMultiple": "Generuj 5 haseł",
+    "clickToCopy": "Kliknij, aby skopiować"
+  }
+  

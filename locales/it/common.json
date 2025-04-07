@@ -1,0 +1,15 @@
+{
+    "title": "Generatore di password sicuro",
+    "description": "Crea una password forte e sicura con un clic.",
+    "length": "Lunghezza",
+    "uppercase": "Maiuscole",
+    "lowercase": "Minuscole",
+    "numbers": "Numeri",
+    "symbols": "Simboli",
+    "excludeSimilar": "Escludi caratteri simili",
+    "explanation": "Il nostro generatore di password ti consente di creare codici sicuri che sono difficili da indovinare e decifrare. Puoi scegliere la lunghezza, includere lettere maiuscole, numeri e simboli. Proteggi i tuoi account online con una password forte e unica.",
+    "generate": "Genera password",
+    "generateMultiple": "Genera 5 password",
+    "clickToCopy": "Clicca per copiare"
+  }
+  
