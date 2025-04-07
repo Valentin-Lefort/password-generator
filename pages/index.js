@@ -48,7 +48,18 @@ export default function Home() {
     <>
       <Head>
         <title>{t('title')}</title>
+      
         <meta name="description" content={t('description')} />
+        <meta name="keywords" content="générateur de mot de passe, mot de passe sécurisé, password generator, générer un mot de passe" />
+        <meta property="og:title" content={t('title')}/>
+        <meta property="og:description" content={t('description')} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://password-tool.xyz/" />
+
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
+
         <meta name="google-adsense-account" content="ca-pub-2846846678326160" />
       </Head>
 
