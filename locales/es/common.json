@@ -41,5 +41,10 @@
     "why": "Una contraseña compleja es su primera línea de defensa contra el robo de datos. Nuestro generador le permite crear contraseñas aleatorias adaptadas a sus necesidades.",
     "safe": "No recopilamos ni almacenamos ninguna contraseña generada. Todo ocurre del lado del cliente, directamente en su navegador.",
     "free": "La herramienta es completamente gratuita, sin registro y disponible para todos en varios idiomas."
+  },
+  "close": "Cerrar",
+  "MobileAbout": {
+    "title": "Preguntas frecuentes",
+    "pageLink": "Acerca de"
   }
 }

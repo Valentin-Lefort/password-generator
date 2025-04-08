@@ -41,5 +41,10 @@
     "why": "Ein komplexes Passwort ist Ihre erste Verteidigungslinie gegen Daten Diebstahl. Unser Generator ermöglicht es Ihnen, zufällige Passwörter zu erstellen, die Ihren Bedürfnissen entsprechen.",
     "safe": "Wir sammeln oder speichern keine generierten Passwörter. Alles geschieht clientseitig, direkt in Ihrem Browser.",
     "free": "Das Tool ist völlig kostenlos, ohne Registrierung und für alle in mehreren Sprachen verfügbar."
+  },
+  "close": "Schließen",
+  "MobileAbout": {
+    "title": "FAQ",
+    "pageLink": "Über uns"
   }
 }

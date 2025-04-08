@@ -47,5 +47,10 @@
     "why": "Un mot de passe complexe est votre première ligne de défense contre le vol de données. Notre générateur vous permet de créer des mots de passe aléatoires adaptés à vos besoins.",
     "safe": "Nous ne collectons ni ne stockons aucun mot de passe généré. Tout se fait côté client, directement dans votre navigateur.",
     "free": "L’outil est totalement gratuit, sans inscription et accessible à tous, en plusieurs langues."
+  },
+  "close": "Fermer",
+  "MobileAbout": {
+    "title": "FAQ",
+    "pageLink": "À propos"
   }
 }

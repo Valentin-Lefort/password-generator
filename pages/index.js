@@ -4,6 +4,7 @@ import useTranslation from "next-translate/useTranslation";
 import LangSwitcher from "../components/LangSwitcher";
 import AdBanner from "../components/AdBanner";
 import Link from "next/link";
+import MobileMenu from "../components/MobileMenu";
 
 export default function Home() {
   const { t } = useTranslation("common");
@@ -65,12 +66,19 @@ export default function Home() {
         <link rel="apple-touch-icon" href="/favicon.png" />
         <meta name="google-adsense-account" content="ca-pub-2846846678326160" />
       </Head>
-
-      {/* Header */}
+      import MobileMenu from "../components/MobileMenu"; // ajoute l'import
       <header className="w-full bg-white shadow-md py-4 fixed top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-          <h1 className="text-xl font-bold text-blue-600">Password Tool</h1>
-          <nav className="flex gap-4 items-center">
+          <div className="flex items-center gap-4">
+            {/* Logo */}
+            <h1 className="text-xl font-bold text-blue-600">Password Tool</h1>
+
+            {/* Mobile Menu */}
+            <MobileMenu />
+          </div>
+
+          {/* Desktop only nav */}
+          <nav className="hidden md:flex gap-4 items-center">
             <LangSwitcher />
 
             <button
@@ -93,7 +101,6 @@ export default function Home() {
           </nav>
         </div>
       </header>
-
       {/* Main content */}
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4 pt-24">
         <AdBanner />
@@ -194,7 +201,6 @@ export default function Home() {
           )}
         </div>
       </div>
-
       {/* FAQ section (home scroll) */}
       <section
         id="about-section"
