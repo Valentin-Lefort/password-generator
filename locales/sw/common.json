@@ -1,15 +1,51 @@
 {
-    "title": "Generatori ya Nenosiri Salama",
-    "description": "Tengeneza nenosiri imara na salama kwa kubofya moja.",
-    "length": "Urefu",
-    "uppercase": "Herufi Kubwa",
-    "lowercase": "Herufi Ndogo",
-    "numbers": "Nambari",
-    "symbols": "Alama",
-    "excludeSimilar": "Tenganisha herufi zinazofanana",
-    "explanation": "Generatori yetu ya nenosiri inakuwezesha kutengeneza misimbo salama ambayo ni vigumu kuikisia na kuifungua. Unaweza kuchagua urefu, kuongeza herufi kubwa, nambari, na alama. Linda akaunti zako za mtandaoni kwa nenosiri imara na la kipekee.",
-    "generate": "Tengeneza nenosiri",
-    "generateMultiple": "Tengeneza nenosiri 5",
-    "clickToCopy": "Bofya kunakili"
+  "title": "Generatori ya Nenosiri Salama",
+  "description": "Unda nenosiri imara na salama kwa kubofya moja tu.",
+  "length": "Urefu",
+  "uppercase": "Herufi Kubwa",
+  "lowercase": "Herufi Ndogo",
+  "numbers": "Nambari",
+  "symbols": "Alama",
+  "excludeSimilar": "Toa alama zinazofanana",
+  "explanation": "Generatori yetu ya nenosiri inakusaidia kuunda misimbo salama na ngumu kutabiri na kufichua. Unaweza kuchagua urefu, kujumuisha herufi kubwa, nambari na alama. Linda akaunti zako mtandaoni kwa nenosiri imara na la kipekee",
+  "generate": "Tengeneza Nenosiri",
+  "generateMultiple": "Tengeneza nenosiri 5",
+  "clickToCopy": "Bofya ili nakili",
+
+  "home": {
+    "explanationTitle1": "Kwa nini utumie generatori yetu ya nenosiri?",
+    "explanation1": "Kwa kuongezeka kwa mashambulizi ya mtandao, ni muhimu kutumia nenosiri imara na la kipekee kwa kila tovuti. Generatori yetu inakuwezesha kuunda nenosiri imara kwa urahisi, kwa kubofya chache tu.",
+    "explanation2": "Binafsisha nenosiri zako kwa kuchagua urefu, matumizi ya nambari, herufi kubwa, alama na zaidi. Ni rahisi, haraka na salama.",
+    "explanation3": "Zana yetu ni bure na haitahifadhi kamwe data zako. Inafaa kwa matumizi ya kibinafsi au ya kibiashara.",
+
+    "explanationTitle2": "Ni vipengele vipi vinavyohitaji kuzingatiwa katika nenosiri salama na imara?",
+    "explanation4": "Katika nenosiri salama na imara, unahitaji kuzingatia vipengele vifuatavyo: mchanganyiko wa herufi nyingi, urefu wa nenosiri, utofauti wa nenosiri, na faragha ya nenosiri.",
+    "explanation5": "Wakati wa kuunda nenosiri imara, matumizi ya mchanganyiko wa herufi nyingi ni kipengele muhimu. Kwa kuchanganya kategoria tofauti za herufi, kama vile herufi kubwa na ndogo, nambari na alama maalum, utakuwa na fursa ya kufanya nenosiri kuwa ngumu zaidi. Kuongeza nambari na alama maalum kunajumuisha safu ya utofauti, wakati kujumuisha herufi kunatoa uwezekano mkubwa wa uchaguzi. Kwa mfano, badala ya kutumia « bonjour », unaweza kutumia « b0nJour! ». Mchanganyiko huu wa herufi hufanya nenosiri lako kuwa gumu kutabiri, na kusaidia kuepuka mashambulizi ya wavamizi.",
+    "explanation6": "Katika nenosiri salama na imara, urefu wa nenosiri pia ni jambo la kuzingatia. Kwa taarifa, nenosiri lako halipaswi kuwa ndefu sana wala fupi sana. Hata hivyo, kadri nenosiri linavyokuwa refu, ndivyo linavyokuwa vigumu kutabiri au kuvunjwa. Hasara pekee ya nenosiri refu ni kwamba linakuwa gumu kukumbuka. Angalau, unaweza kuchagua herufi 8, lakini inawezekana kuongeza hadi herufi 20. Kumbuka, urefu peke yake hauitoshi kutengeneza nenosiri imara kwani kuna vigezo vingine kama mchanganyiko wa herufi na utofauti wa nenosiri.",
+    "explanation7": "Kuhusu utofauti wa nenosiri, hii ni mbinu ya kuunda nenosiri tofauti kwa kila akaunti. Inapaswa kujulikana kuwa kutumia nenosiri moja kwa majukwaa tofauti huongeza hatari ya wizi wa taarifa zako binafsi. Kwa kutumia mbinu hii, utakuwa na nafasi ya kupunguza matatizo ikiwa kutakuwa na tatizo la usalama. Ikiwa akaunti yako ya Facebook itavunjwa, akaunti zingine zitakuwa salama. Ili kuhifadhi na kudhibiti nenosiri zako vizuri, ni bora kutumia meneja wa nenosiri. Kwa zana hii, utakuwa na maisha rahisi.",
+    "explanation8": "Katika mchakato wa kuunda nenosiri imara, ni muhimu kuzingatia faragha ya nenosiri. Hii ni kwa sababu, haupaswi kushiriki nenosiri lako na watu wengine kwani ni kipengele cha faragha. Mtandaoni, udanganyifu unaweza kuwa katika aina mbalimbali. Ikiwa tovuti inakuomba kutoa nenosiri lako, unapaswa kuwa na shaka mara moja. Kwa kawaida, huduma halali hazidai taarifa hii. Hali kadhalika, kwa maombi kupitia simu, ujumbe wa maandishi, barua pepe au njia nyingine zisizo salama za mawasiliano. Kwa kulinda faragha ya nenosiri lako, unaweza kuongeza ulinzi wa akaunti zako.",
+
+    "explanationTitle3": "Jinsi ya kukumbuka nenosiri lako vizuri?",
+    "explanation9": "Bila shaka, ni muhimu kukumbuka nenosiri lako kwani bila nambari hii, huwezi kufungua akaunti zako. Njia bora ya kukumbuka nenosiri lako ni kulandika mahali fulani, bora iwe kwenye kifaa au chombo salama kama vile kifaa cha USB chenye nambari ya siri. Kwa hivyo, inapaswa kuepukwa kuweka nenosiri lako kwenye noti, karatasi, faili la Word, nk. Kwanza, unaweza kutumia mbinu ya kumbu kumbu, mbinu inayolenga kuunda uhusiano unaorahisisha kukumbuka nenosiri lako. Ili kufanya hivi, chagua nukuu au sentensi inayokufaa. Kwa kutumia herufi za mwanzo za maneno, utaweza kupata nenosiri lako.",
+    "explanation10": "Njia nyingine ya kukumbuka nenosiri lako ni kutumia ufanisi wa maono ya ubunifu. Hii ni kama kuunda picha au michoro inayokusaidia kukumbuka nenosiri lako. Ikiwa unakumbuka kidogo, suluhisho bora ni kutumia meneja wa nenosiri. Mtandaoni, kuna majukwaa mengi yanayotoa zana hizi. Ikiwa inahitajika, unaweza kutumia huduma za ziada, kama vile usawazishaji kwa vifaa vyote, uhifadhi kwenye wingu, urejeshaji, kushiriki vitambulisho au hata ukaguzi wa usalama.",
+
+    "explanationTitle4": "Vidokezo kadhaa vya kuongeza usalama wa nenosiri lako",
+    "explanation11": "Njia ya usalama inayotumika kuboresha ulinzi wa akaunti ni uthibitishaji wa hatua mbili au 2FA. Kanuni yake ni rahisi, inahitaji uthibitisho wa pili wa utambulisho wakati unapoingia kwenye tovuti. Mara tu unapoweka chaguo hili, wavamizi watakuwa na ugumu kupata akaunti zako. Mara nyingi, inafanya kazi kwa kutuma nambari ya uthibitisho kwa simu yako ya mkononi. Hivyo, ni mtu mmoja tu anayeweza kufungua akaunti kwa sababu nambari atakayoipokea itaonyeshwa kwenye simu yake tu",
+    "explanation12": "Moja ya vitisho vinavyorudia kwa usalama ni ulaghai wa mtandao, shambulio la kimtandao linalotegemea kutuma barua pepe za uovu. Ikiwa unapokea barua pepe inayoshukiwa, ni bora kuiacha kwenye ujumbe usio na kusoma. Mara tu unapobofya kiambatisho au kiungo, nenosiri lako na akaunti yako viko hatarini kuibiwa. Ili kuepuka hili, usipe taarifa zako kwa watu wasiowajua. Wakati unapozunguka mtandaoni, inashauriwa kuingia kwenye tovuti salama na zinazotambulika zikiwa na cheti cha uthibitishaji salama.",
+    "explanation13": "Vidokezo vya mwisho, usisite kujifunza kuhusu usalama wa mtandao. Ili kuboresha usalama wa nenosiri lako, jifunze mbinu za ulaghai, aina za vitisho, usimamizi wa utambulisho, zana za ulinzi, nk. Kwa kutumia vyanzo mbalimbali mtandaoni, unaweza kugundua aina zote za video, mafunzo na makala yanayofafanua dhana hizi. Ikiwa una wakati, unaweza pia kushiriki katika mafunzo au programu za uhamasishaji kuhusu mada hii. Baada ya kupata maarifa muhimu, utakuwa na fursa ya kuongeza usalama wa akaunti zako na kutumia nenosiri imara zaidi, hasa kwa kutumia generatori ya nenosiri mtandaoni.",
+    "explanation14": "Kwa kumalizia, kuunda nenosiri imara na salama kunahitaji kuzingatia vipengele kadhaa kama vile urefu, mchanganyiko, faragha au utofauti wa herufi. Ili kuwa na nenosiri bora, kuna suluhisho mbalimbali zinazopatikana kwako, kama vile kutumia generatori ya nenosiri kama password-tool.xyz, meneja wa nenosiri, au mbinu ya kubadilisha maneno au sentensi ya siri. Kwa kutumia mbinu hizi na zana, utakuwa na uhakika kwamba hakuna hacker atakayepata taarifa zako binafsi.",
+
+    "backToHome": "Rudi Nyumbani"
+  },
+
+  "about": {
+    "titleWhy": "FAQ",
+    "titleAbout": "Kuhusu",
+    "metaDescription": "Gundua jinsi generatori yetu ya nenosiri salama inavyofanya kazi.",
+    "heading": "Kuhusu Zana ya Nenosiri",
+    "what": "Zana ya Nenosiri ni zana ya mtandaoni ya bure inayokusaidia kutengeneza nenosiri imara na salama kulingana na vigezo vyako.",
+    "why": "Nenosiri tata ni mstari wako wa kwanza wa ulinzi dhidi ya wizi wa data. Generatori yetu inakuwezesha kuunda nenosiri za bahati nasibu zinazokufaa.",
+    "safe": "Hatukusanyi wala hatuhifadhi nenosiri lolote lililotengenezwa. Kila kitu hufanyika upande wa mteja, moja kwa moja kwenye kivinjari chako.",
+    "free": "Zana hii ni bure kabisa, bila usajili na inapatikana kwa wote, kwa lugha mbalimbali."
   }
-  
+}

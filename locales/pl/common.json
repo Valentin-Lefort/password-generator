@@ -1,15 +1,51 @@
 {
-    "title": "Bezpieczny generator haseł",
-    "description": "Stwórz mocne i bezpieczne hasło za pomocą jednego kliknięcia.",
-    "length": "Długość",
-    "uppercase": "Wielkie litery",
-    "lowercase": "Małe litery",
-    "numbers": "Cyfry",
-    "symbols": "Symbole",
-    "excludeSimilar": "Wyklucz podobne znaki",
-    "explanation": "Nasz generator haseł umożliwia tworzenie bezpiecznych kodów, które trudno zgadnąć i złamać. Możesz wybrać długość, dodać wielkie litery, cyfry i symbole. Chroń swoje konto online silnym i unikalnym hasłem.",
-    "generate": "Generuj hasło",
-    "generateMultiple": "Generuj 5 haseł",
-    "clickToCopy": "Kliknij, aby skopiować"
+  "title": "Generator Silnego Hasła",
+  "description": "Stwórz silne i bezpieczne hasło jednym kliknięciem.",
+  "length": "Długość",
+  "uppercase": "Wielkie litery",
+  "lowercase": "Małe litery",
+  "numbers": "Cyfry",
+  "symbols": "Symbole",
+  "excludeSimilar": "Wyklucz podobne znaki",
+  "explanation": "Nasz generator haseł pozwala tworzyć bezpieczne i trudne do odgadnięcia oraz złamania kody. Możesz wybrać długość, włączyć wielkie litery, cyfry i symbole. Chroń swoje konta online za pomocą silnego i unikalnego hasła.",
+  "generate": "Wygeneruj hasło",
+  "generateMultiple": "Wygeneruj 5 haseł",
+  "clickToCopy": "Kliknij, aby skopiować",
+
+  "home": {
+    "explanationTitle1": "Dlaczego warto używać naszego generatora haseł?",
+    "explanation1": "W związku ze wzrostem liczby ataków cybernetycznych, ważne jest, aby używać silnych i unikalnych haseł dla każdej strony. Nasz generator pozwala łatwo tworzyć mocne hasła, w zaledwie kilka kliknięć.",
+    "explanation2": "Dostosuj swoje hasła, wybierając długość, użycie cyfr, wielkich liter, symboli i więcej. To proste, szybkie i bezpieczne.",
+    "explanation3": "Nasze narzędzie jest darmowe i nigdy nie przechowuje Twoich danych. Idealne do użytku prywatnego lub zawodowego.",
+
+    "explanationTitle2": "Jakie elementy należy wziąć pod uwagę przy tworzeniu silnego i bezpiecznego hasła?",
+    "explanation4": "W silnym i bezpiecznym haśle należy wziąć pod uwagę następujące elementy: kombinacje różnych znaków, długość hasła, różnorodność haseł, poufność hasła.",
+    "explanation5": "Podczas tworzenia silnego hasła, użycie kombinacji różnych znaków jest kluczowe. Łącząc różne kategorie znaków, takie jak wielkie i małe litery, cyfry oraz znaki specjalne, masz możliwość stworzenia bardziej złożonego hasła. Dodanie cyfr i znaków specjalnych zwiększa różnorodność, podczas gdy uwzględnienie liter oferuje szeroki wybór możliwości. Na przykład, zamiast używać „bonjour”, możesz użyć „b0nJour!”. Te kombinacje znaków sprawiają, że hasło jest trudniejsze do przewidzenia, co pomaga uniknąć ataków hakerów.",
+    "explanation6": "W silnym i bezpiecznym haśle długość również jest istotnym czynnikiem. Twoje hasło nie powinno być ani za długie, ani za krótkie. Jednak im dłuższe hasło, tym trudniej je odgadnąć lub złamać. Jedyne, co może być minusem długiego hasła, to trudność w zapamiętaniu go. Minimum to 8 znaków, ale można również użyć do 20 znaków. Pamiętaj, że sama długość nie wystarczy, aby stworzyć silne hasło, ponieważ istnieją inne kryteria, takie jak kombinacja znaków i różnorodność haseł.",
+    "explanation7": "Jeśli chodzi o różnorodność haseł, jest to technika tworzenia różnych haseł dla każdego konta. Należy pamiętać, że używanie tego samego hasła na wielu platformach zwiększa ryzyko kradzieży Twoich danych osobowych. Korzystając z tej metody, zmniejszasz problemy w przypadku incydentu bezpieczeństwa. Jeśli Twoje konto na Facebooku zostanie skompromitowane, inne konta będą chronione. Aby lepiej przechowywać i zarządzać swoimi hasłami, warto wdrożyć menedżera haseł. Dzięki temu narzędziu życie stanie się łatwiejsze.",
+    "explanation8": "W procesie tworzenia silnego hasła, należy również pamiętać o jego poufności. Nie należy dzielić się nim z innymi osobami, ponieważ jest to element poufny. W internecie oszustwa mogą przyjmować różne formy. Jeśli jakaś strona prosi Cię o ujawnienie hasła, należy natychmiast zachować ostrożność. Zasadniczo usługi legitne nigdy nie wymagają takich informacji. To samo dotyczy prośb telefonicznych, SMS-owych, e-mailowych czy innych form komunikacji, które nie są bezpieczne. Zachowując poufność swojego hasła, możesz wzmocnić ochronę swoich kont.",
+
+    "explanationTitle3": "Jak dobrze zapamiętać swoje hasło?",
+    "explanation9": "Oczywiście, ważne jest, aby zapamiętać swoje hasło, ponieważ bez niego nie możesz otworzyć swoich kont. Najlepszym sposobem na zapamiętanie swojego hasła jest zapisanie go w bezpiecznym miejscu, najlepiej na urządzeniu lub nośniku zabezpieczonym, jak np. pamięć USB z kodem. Należy unikać przechowywania hasła w notatniku, na kartce papieru, w pliku Word itp. Początkowo możesz używać techniki mnemotechnicznej, która polega na tworzeniu połączenia ułatwiającego zapamiętanie hasła. W tym celu wybierz cytat lub zdanie, które jest Ci znane. Używając pierwszych liter słów, będziesz mógł uzyskać swoje hasło.",
+    "explanation10": "Innym sposobem na zapamiętanie hasła jest kreatywna wizualizacja. Polega to na wyobrażeniu sobie sceny lub obrazów, które pomagają przypomnieć sobie kod dostępu. Jeśli masz krótką pamięć, najlepszym rozwiązaniem jest użycie menedżera haseł. W Internecie istnieje wiele platform oferujących tego rodzaju narzędzia. W razie potrzeby możesz skorzystać z dodatkowych funkcji, takich jak synchronizacja z wszystkimi urządzeniami, przechowywanie w chmurze, odzyskiwanie, udostępnianie danych logowania czy audyt bezpieczeństwa.",
+
+    "explanationTitle4": "Kilka porad, jak wzmocnić bezpieczeństwo swojego hasła",
+    "explanation11": "Środek bezpieczeństwa, który pomaga zoptymalizować ochronę kont, to uwierzytelnianie dwuetapowe (2FA). Zasada jest prosta – wymaga drugiego dowodu tożsamości przy logowaniu na stronie internetowej. Po włączeniu tej opcji hakerom będzie trudniej uzyskać dostęp do Twoich kont. Najczęściej działa to poprzez wysłanie kodu weryfikacyjnego na Twój telefon komórkowy. Dzięki temu tylko jedna osoba może otworzyć konto, ponieważ kod, który otrzyma, będzie wyświetlany tylko na jej telefonie.",
+    "explanation12": "Jednym z najczęstszych zagrożeń w zakresie bezpieczeństwa jest phishing, cyberatak polegający na wysyłaniu złośliwych wiadomości e-mail. Jeśli otrzymasz podejrzaną wiadomość e-mail, najlepiej pozostawić ją w folderze nieprzeczytanych. Gdy klikniesz załącznik lub link, Twoje hasło i konto mogą zostać przejęte przez hakerów. Aby temu zapobiec, nigdy nie udostępniaj swoich danych kontaktowych obcym osobom. Podczas przeglądania internetu należy wchodzić tylko na strony, które są bezpieczne i posiadają certyfikat SSL.",
+    "explanation13": "Ostatnia cenna rada – nie wahaj się szkolić się w zakresie cyberbezpieczeństwa. Aby poprawić bezpieczeństwo swojego hasła, ucz się technik hakerskich, rodzajów zagrożeń, zarządzania tożsamościami, narzędzi ochrony itp. Dzięki różnym zasobom online możesz znaleźć wiele filmów, poradników i artykułów wyjaśniających te zagadnienia. Jeśli masz czas, możesz nawet wziąć udział w szkoleniu lub programie podnoszenia świadomości na ten temat. Po zdobyciu niezbędnej wiedzy będziesz w stanie lepiej zabezpieczyć swoje konta i tworzyć bardziej skuteczne hasła, zwłaszcza za pomocą generatora haseł online.",
+    "explanation14": "Podsumowując, tworzenie silnego i bezpiecznego hasła wymaga uwzględnienia kilku elementów, takich jak długość, kombinacja, poufność lub różnorodność znaków. Aby stworzyć dobre hasło, masz do dyspozycji różne rozwiązania, takie jak korzystanie z generatorów haseł, menedżerów haseł, metod zamiany słów lub tajnych fraz. Dzięki tym technikom i narzędziom masz pewność, że żaden haker nie uzyska dostępu do Twoich danych osobowych.",
+
+    "backToHome": "Powrót do strony głównej"
+  },
+
+  "about": {
+    "titleWhy": "FAQ",
+    "titleAbout": "O nas",
+    "metaDescription": "Dowiedz się, jak działa nasz generator haseł bezpiecznych.",
+    "heading": "O Password Tool",
+    "what": "Password Tool to darmowe narzędzie online, które pomaga generować silne i bezpieczne hasła zgodnie z Twoimi wymaganiami.",
+    "why": "Złożone hasło to pierwsza linia obrony przed kradzieżą danych. Nasz generator umożliwia tworzenie losowych haseł dostosowanych do Twoich potrzeb.",
+    "safe": "Nie zbieramy ani nie przechowujemy żadnych wygenerowanych haseł. Wszystko odbywa się po stronie klienta, bezpośrednio w Twojej przeglądarce.",
+    "free": "Narzędzie jest całkowicie darmowe, bez rejestracji i dostępne dla każdego w wielu językach."
   }
-  
+}
