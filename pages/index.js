@@ -66,7 +66,6 @@ export default function Home() {
         <link rel="apple-touch-icon" href="/favicon.png" />
         <meta name="google-adsense-account" content="ca-pub-2846846678326160" />
       </Head>
-      import MobileMenu from "../components/MobileMenu"; // ajoute l'import
       <header className="w-full bg-white shadow-md py-4 fixed top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
