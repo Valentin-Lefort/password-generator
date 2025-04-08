@@ -47,5 +47,10 @@
     "why": "Złożone hasło to pierwsza linia obrony przed kradzieżą danych. Nasz generator umożliwia tworzenie losowych haseł dostosowanych do Twoich potrzeb.",
     "safe": "Nie zbieramy ani nie przechowujemy żadnych wygenerowanych haseł. Wszystko odbywa się po stronie klienta, bezpośrednio w Twojej przeglądarce.",
     "free": "Narzędzie jest całkowicie darmowe, bez rejestracji i dostępne dla każdego w wielu językach."
+  },
+  "close": "Zamknij",
+  "MobileAbout": {
+    "title": "Najczęściej zadawane pytania",
+    "pageLink": "O nas"
   }
 }

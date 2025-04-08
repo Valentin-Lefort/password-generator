@@ -41,5 +41,10 @@
     "why": "Uma senha complexa é sua primeira linha de defesa contra o roubo de dados. Nosso gerador permite criar senhas aleatórias adaptadas às suas necessidades.",
     "safe": "Não coletamos nem armazenamos nenhuma senha gerada. Tudo ocorre do lado do cliente, diretamente no seu navegador.",
     "free": "A ferramenta é totalmente gratuita, sem inscrição e acessível a todos em várias línguas."
+  },
+  "close": "Fechar",
+  "MobileAbout": {
+    "title": "Perguntas frequentes",
+    "pageLink": "Sobre"
   }
 }

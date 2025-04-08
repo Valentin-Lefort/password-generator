@@ -47,5 +47,10 @@
     "why": "Nenosiri tata ni mstari wako wa kwanza wa ulinzi dhidi ya wizi wa data. Generatori yetu inakuwezesha kuunda nenosiri za bahati nasibu zinazokufaa.",
     "safe": "Hatukusanyi wala hatuhifadhi nenosiri lolote lililotengenezwa. Kila kitu hufanyika upande wa mteja, moja kwa moja kwenye kivinjari chako.",
     "free": "Zana hii ni bure kabisa, bila usajili na inapatikana kwa wote, kwa lugha mbalimbali."
+  },
+  "close": "Funga",
+  "MobileAbout": {
+    "title": "Maswali ya Mara kwa Mara",
+    "pageLink": "Kuhusu"
   }
 }

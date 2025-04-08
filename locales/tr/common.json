@@ -41,5 +41,10 @@
     "why": "Karmaşık bir parola, verilerinizin çalınmasına karşı ilk savunma hattınızdır. Oluşturucumuz, ihtiyaçlarınıza uygun rastgele parolalar oluşturmanıza olanak tanır.",
     "safe": "Hiçbir oluşturulan parolayı toplamayız veya saklamayız. Her şey kullanıcı tarafında, doğrudan tarayıcınızda gerçekleşir.",
     "free": "Araç tamamen ücretsizdir, kayıt gerekmez ve çeşitli dillerde herkesin kullanımına sunulur."
+  },
+  "close": "Kapat",
+  "MobileAbout": {
+    "title": "Sıkça Sorulan Sorular",
+    "pageLink": "Hakkında"
   }
 }

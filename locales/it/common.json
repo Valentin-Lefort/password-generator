@@ -41,5 +41,10 @@
     "why": "Una password complessa è la tua prima linea di difesa contro il furto di dati. Il nostro generatore ti permette di creare password casuali adatte alle tue esigenze.",
     "safe": "Non raccogliamo né memorizziamo alcuna password generata. Tutto avviene lato client, direttamente nel tuo browser.",
     "free": "Lo strumento è completamente gratuito, senza registrazione e disponibile per tutti in diverse lingue."
+  },
+  "close": "Chiudere",
+  "MobileAbout": {
+    "title": "Domande frequenti",
+    "pageLink": "Chi siamo"
   }
 }

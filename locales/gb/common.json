@@ -41,5 +41,10 @@
     "why": "A complex password is your first line of defense against data theft. Our generator allows you to create random passwords tailored to your needs.",
     "safe": "We do not collect or store any generated passwords. Everything happens client-side, directly in your browser.",
     "free": "The tool is completely free, without registration, and available to everyone in multiple languages."
+  },
+  "close": "Close",
+  "MobileAbout": {
+    "title": "FAQ",
+    "pageLink": "About"
   }
 }

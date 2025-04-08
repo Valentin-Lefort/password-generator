@@ -41,5 +41,10 @@
     "why": "Een complex wachtwoord is je eerste verdedigingslinie tegen gegevensdiefstal. Onze generator helpt je willekeurige wachtwoorden te maken die aan je behoeften voldoen.",
     "safe": "We verzamelen of bewaren geen enkel gegenereerd wachtwoord. Alles gebeurt aan de clientzijde, rechtstreeks in je browser.",
     "free": "Het hulpmiddel is volledig gratis, zonder registratie en beschikbaar voor iedereen in meerdere talen."
+  },
+  "close": "Sluiten",
+  "MobileAbout": {
+    "title": "Veelgestelde vragen",
+    "pageLink": "Over ons"
   }
 }
