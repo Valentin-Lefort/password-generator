@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
+    "flag-icons": "^7.3.2",
     "next": "15.2.4",
     "next-translate-plugin": "^2.6.2",
     "react": "^19.0.0",

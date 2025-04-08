@@ -1,24 +1,25 @@
 {
   "locales": [
-    "en",
+    "gb",
     "fr",
     "es",
     "nl",
     "de",
     "pt",
-    "ar",
-    "bn",
-    "hi",
-    "it",
+    "cn",
+    "sa",
+    "in",
+    "jp",
     "ja",
-    "ko",
-    "pl",
     "ru",
-    "sw",
+    "it",
+    "kr",
     "tr",
-    "zh"
+    "pl",
+    "bd",
+    "ke"
   ],
-  "defaultLocale": "en",
+  "defaultLocale": "gb",
   "pages": {
     "*": ["common"]
   }
