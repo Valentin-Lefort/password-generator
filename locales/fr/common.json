@@ -1,15 +1,51 @@
 {
-    "title": "Générateur de Mot de Passe Sécurisé",
-    "description": "Créez un mot de passe fort et sécurisé en un clic.",
-    "length": "Longueur",
-    "uppercase": "Majuscules",
-    "lowercase": "Minuscules",
-    "numbers": "Chiffres",
-    "symbols": "Symboles",
-    "excludeSimilar": "Exclure les caractères similaires",
-    "explanation": "Notre générateur de mots de passe vous permet de créer des codes sécurisés et difficiles à deviner & déchiffrer. Vous pouvez choisir la longueur, inclure des majuscules, des chiffres et des symboles. Protégez vos comptes en ligne avec un mot de passe fort et unique",
-    "generate": "Générer un mot de passe",
-    "generateMultiple": "Générer 5 mots de passe",
-    "clickToCopy": "Cliquez pour copier"
+  "title": "Générateur de Mot de Passe Sécurisé",
+  "description": "Créez un mot de passe fort et sécurisé en un clic.",
+  "length": "Longueur",
+  "uppercase": "Majuscules",
+  "lowercase": "Minuscules",
+  "numbers": "Chiffres",
+  "symbols": "Symboles",
+  "excludeSimilar": "Exclure les caractères similaires",
+  "explanation": "Notre générateur de mots de passe vous permet de créer des codes sécurisés et difficiles à deviner & déchiffrer. Vous pouvez choisir la longueur, inclure des majuscules, des chiffres et des symboles. Protégez vos comptes en ligne avec un mot de passe fort et unique",
+  "generate": "Générer un mot de passe",
+  "generateMultiple": "Générer 5 mots de passe",
+  "clickToCopy": "Cliquez pour copier",
+
+  "home": {
+    "explanationTitle1": "Pourquoi utiliser notre générateur de mots de passe ?",
+    "explanation1": "Avec l’augmentation des cyberattaques, il est essentiel d’utiliser des mots de passe forts et uniques pour chaque site. Notre générateur vous permet de créer facilement des mots de passe robustes, en quelques clics.",
+    "explanation2": "Personnalisez vos mots de passe en choisissant la longueur, l’utilisation de chiffres, de majuscules, de symboles et plus encore. C’est simple, rapide et sécurisé.",
+    "explanation3": "Notre outil est gratuit et ne stocke jamais vos données. Idéal pour un usage personnel ou professionnel.",
+
+    "explanationTitle2": "Quels sont les éléments à considérer dans un mot de passe sécurisé et fort ?",
+    "explanation4": "Dans un mot de passe fort et sécurisé, vous devez prendre en compte les éléments suivants : les combinaisons de plusieurs caractères, la longueur du mot de passe, la diversification des mots de passe, la confidentialité du password.",
+    "explanation5": "Lors de la création d'un mot de passe fort, l'utilisation de combinaisons de plusieurs caractères est un élément crucial. En mélangeant différentes catégories de caractères, tels que les lettres majuscules et minuscules, les chiffres ainsi que les caractères spéciaux, vous aurez l'opportunité de rendre le mot de passe plus complexe. L'ajout de chiffres et de caractères spéciaux inclut une couche de diversité tandis que l'inclusion des lettres offre une grande variété de possibilités. À titre d'exemple, n'hésitez pas à mettre « b0nJour! » au lieu de « bonjour ». Ces combinaisons de caractères rendent votre mot de passe moins prévisible, ce qui permet d'éviter les attaques des pirates informatiques.",
+    "explanation6": "Dans un mot de passe fort et sécurisé, la longueur du mot de passe est également un facteur à ne pas négliger. Pour information, votre mot de passe ne doit ni être trop long ni trop court. Cependant, plus le mot de passe est long, plus il est difficile à deviner ou à cracker. Le seul inconvénient d'un long mot de passe est qu'il n'est pas facile à retenir. Au minimum, vous pouvez opter pour 8 caractères, mais il est possible de mettre jusqu'à 20 caractères. Pour rappel, la longueur seule ne suffit pas à générer mot de passe fort puisqu'il y a d'autres critères comme la combinaison des caractères et la diversification des mots de passe.",
+    "explanation7": "En ce qui concerne la diversification des mots de passe, il s'agit d'une technique consistant à créer différents password pour chaque compte. Il faut savoir que l'utilisation d'un seul mot de passe pour plusieurs plateformes augmente le risque de vol de vos informations personnelles. Grâce à cette méthode, vous aurez la chance d'alléger les problèmes en cas d'incident de sécurité. Si votre compte Facebook est compromis, les autres comptes seront protégés. Afin de mieux stocker et gérer vos codes, il vaut mieux mettre en œuvre un gestionnaire de mots de passe. Avec cet outil, vous aurez la vie plus facile.",
+    "explanation8": "Dans le cadre de la creation mot de passe fort, il est indispensable de considérer la confidentialité du mot de passe. En effet, vous ne devez pas le partager avec d'autres personnes puisque c'est un élément confidentiel. Sur Internet, les arnaques peuvent prendre différentes formes. Dans le cas où un site demande de divulguer votre mot de passe, il faut tout de suite se méfier. En principe, les services légitimes ne réclament jamais ce genre de renseignement. De même pour les sollicitations par téléphone, par SMS, par mail ou autres moyens de communication non sécurisés. En conservant la confidentialité de votre code, vous pouvez renforcer la protection de vos comptes.",
+
+    "explanationTitle3": "Comment bien mémoriser son mot de passe ?",
+    "explanation9": "Bien entendu, il est essentiel de mémoriser votre mot de passe puisque sans ce code, vous ne pouvez plus ouvrir vos comptes. Le meilleur moyen de se souvenir de son mot de passe est de l'inscrire quelque part, de préférence sur un dispositif ou un support sécurisé comme une clef usb à digicode. De ce fait, il faut éviter de laisser votre mot de passe dans le bloc note, papier, fichier word, etc. Dans un premier temps, vous pouvez utiliser la stratégie mnémonique, une pratique qui a pour objectif de procréer une connexion qui simplifie la mémorisation de votre mot de passe. Pour ce faire, il faut choisir une citation ou une phrase qui vous est familière. En utilisant les premières lettres des mots, vous allez pouvoir obtenir votre password.",
+    "explanation10": "Autre moyen de mémoriser son mot de passe, se baser sur la visualisation créative. Cette dernière se présente comme l'imagination d'une scène ou de représentations permettant de se souvenir de code d'accès. Dans le cas où vous avez une mémoire courte, la solution la plus adaptée est d'utiliser un gestionnaire de mot de passe. Sur le web, il existe de nombreuses plateformes qui proposent ce genre d'outils. Si nécessaire, vous pouvez même profiter de fonctionnalités complémentaires, telle la synchronisation avec tous les appareils, le stockage dans le cloud, la récupération, le partage des identifiants ou encore l'audit de sécurité.",
+
+    "explanationTitle4": "Quelques conseils pour renforcer la sécurité de votre mot de passe",
+    "explanation11": "Mesure de sécurité servant à optimiser la protection des comptes, l'authentification à deux facteurs ou 2FA est une technologie à privilégier. Son principe est simple, elle exige une seconde preuve d'identité lorsque vous allez vous connecter à un site web. Une fois cette option activée, les pirates informatiques auront du mal à accéder à vos comptes. La plupart du temps, elle fonctionne en envoyant un code de vérification sur votre smartphone. Par conséquent, seule une personne peut ouvrir le compte en ligne puisque le code qu'elle va recevoir s'affichera uniquement sur son téléphone",
+    "explanation12": "L'une des menaces les plus fréquentes en matière de sécurité est le phishing, une cyberattaque qui se repose sur la transmission de mails malveillants. Si vous recevez un courrier électronique suspect, il vaut mieux le laisser parmi les messages non lus. Dès que vous cliquez sur la pièce jointe ou le lien, votre mot de passe ainsi que votre compte risquent d'être piratés. Afin d'y remédier, il ne faut jamais fournir vos contacts à des inconnus. Quand vous allez naviguer sur Internet, il est recommandé d'entrer sur les sites sécurisés et reconnus munis d'un certificat d'authentification sécurisé.",
+    "explanation13": "Un dernier conseil précieux, n'hésitez pas à vous entrainer sur la cybersécurité. Afin d'améliorer la sécurité de votre mot de passe, apprenez le fonctionnement des techniques de piratage, les types de menaces, la gestion des identités, les outils de protection, etc. À l'aide des différentes ressources en ligne, vous pourriez découvrir toutes sortes de vidéos, tutoriels et articles qui expliquent ces divers concepts. Si vous avez le temps, vous pouvez même participer à des formations ou programmes de sensibilisation sur ce sujet. Après avoir acquis les connaissances nécessaires, vous aurez l'occasion de mieux sécuriser vos comptes et utiliser des mots de passe plus efficaces notamment grâce à la création de mot de passe fort en ligne.",
+    "explanation14": "En somme, la création d'un mot de passe fort et sécurisé requiert la prise en compte d'un certain nombre d'éléments comme la longueur, la combinaison, la confidentialité ou la diversification des caractères. Afin d'avoir un bon mot de passe, plusieurs solutions sont à votre disposition, à savoir l'utilisation d'un générateur mot de passe de type motdepasse.xyz, et un gestionnaire de mot de passe, ou une méthode de substitution des mots ou encore une phrase secrète. Grâce à ces techniques et outils, vous serez sûr qu'aucun hacker n'accède à vos informations personnelles.",
+
+    "backToHome": "Retour à l'accueil"
+  },
+
+  "about": {
+    "titleWhy": "FAQ",
+    "titleAbout": "À propos",
+    "metaDescription": "Découvrez le fonctionnement de notre générateur de mots de passe sécurisé.",
+    "heading": "À propos de Password Tool",
+    "what": "Password Tool est un outil en ligne gratuit qui vous aide à générer des mots de passe forts et sécurisés en fonction de vos critères.",
+    "why": "Un mot de passe complexe est votre première ligne de défense contre le vol de données. Notre générateur vous permet de créer des mots de passe aléatoires adaptés à vos besoins.",
+    "safe": "Nous ne collectons ni ne stockons aucun mot de passe généré. Tout se fait côté client, directement dans votre navigateur.",
+    "free": "L’outil est totalement gratuit, sans inscription et accessible à tous, en plusieurs langues."
   }
-  
+}
