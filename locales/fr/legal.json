@@ -1,0 +1,20 @@
+{
+  "title": "Mentions légales",
+  "metaDescription": "Mentions légales du site Password Tool",
+  "editor": {
+    "title": "Éditeur du site",
+    "content": "Le site <strong>password-tool.xyz</strong> est édité par un développeur indépendant."
+  },
+  "host": {
+    "title": "Hébergement",
+    "content": "<strong>Vercel Inc.</strong><br />440 N Barranca Ave #4133, Covina, CA 91723, États-Unis<br /><a href=\"https://vercel.com\" class=\"text-blue-600 underline\" target=\"_blank\" rel=\"noopener noreferrer\">https://vercel.com</a>"
+  },
+  "responsibility": {
+    "title": "Responsabilité",
+    "content": "Les outils sont proposés à titre informatif. L’éditeur ne peut être tenu responsable de leur utilisation."
+  },
+  "privacy": {
+    "title": "Données personnelles",
+    "content": "Ce site ne collecte ni ne stocke aucune donnée personnelle."
+  }
+}

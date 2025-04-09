@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{t("title")}</title>
+        <title>{[t("title"), "Password Tool"].join(" | ")}</title>
         <meta name="description" content={t("description")} />
         <meta
           name="keywords"

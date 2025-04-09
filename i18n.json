@@ -21,6 +21,7 @@
   ],
   "defaultLocale": "gb",
   "pages": {
-    "*": ["common"]
+    "*": ["common"],
+    "/legals-mentions": ["legal"]
   }
 }
