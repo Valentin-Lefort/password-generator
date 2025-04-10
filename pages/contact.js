@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
+import Header from "../components/Header";
 
 export default function ContactPage() {
   const { locale } = useRouter();
@@ -61,8 +62,9 @@ export default function ContactPage() {
         <meta name="description" content={description} />
         <meta name="robots" content="index, follow" />
       </Head>
+      <Header />
 
-      <main className="max-w-3xl mx-auto px-4 py-12 text-gray-800">
+      <main className="max-w-3xl mx-auto pt-24 px-4 py-12 text-gray-800">
         <h1 className="text-3xl font-bold mb-6">{heading}</h1>
         {text}
 

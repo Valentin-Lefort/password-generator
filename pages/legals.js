@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import LangSwitcher from "../components/LangSwitcher";
-
+import Header from "../components/Header";
 export default function LegalMentions() {
   const { locale } = useRouter();
 
@@ -114,7 +113,8 @@ export default function LegalMentions() {
         <meta name="description" content={description} />
         <meta name="robots" content="index, follow" />
       </Head>
-      <main className="max-w-4xl mx-auto px-4 py-12">{legal}</main>
+      <Header />
+      <main className=" pt-24 px-4">{legal}</main>
     </>
   );
 }

@@ -2,10 +2,32 @@ import { useState } from "react";
 import useTranslation from "next-translate/useTranslation";
 import LangSwitcher from "./LangSwitcher";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
   const { t } = useTranslation("common");
+  const router = useRouter();
+  const currentPath = router.pathname;
+
+  const navItems = [
+    { href: "/", label: "Tools", isScroll: true },
+    { href: "/about", label: t("MobileAbout.pageLink") },
+    { href: "/cyber-news", label: "Cyber News" },
+    { href: "/contact", label: t("contact.title") },
+    { href: "/legals", label: "Mentions Légales" },
+  ];
+
+  const handleClick = (href) => {
+    if (href === "/" && currentPath === "/") {
+      document
+        .getElementById("about-section")
+        ?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      router.push(href);
+    }
+    setOpen(false);
+  };
 
   return (
     <div className="md:hidden">
@@ -31,7 +53,7 @@ export default function MobileMenu() {
 
       {open && (
         <div
-          className="fixed inset-0 z-50 bg-gray bg-opacity-50"
+          className="fixed inset-0 z-50 bg-black bg-opacity-50"
           onClick={() => setOpen(false)}
         >
           <div
@@ -49,29 +71,28 @@ export default function MobileMenu() {
               <LangSwitcher />
             </div>
 
-            <button
-              onClick={() => {
-                document
-                  .getElementById("about-section")
-                  ?.scrollIntoView({ behavior: "smooth" });
-                setOpen(false);
-              }}
-              className="block w-full text-left text-blue-600 hover:underline mb-4"
-            >
-              {t("MobileAbout.title")}
-            </button>
+            {navItems.map(({ href, label }) => {
+              if (href === currentPath) {
+                return (
+                  <span
+                    key={href}
+                    className="block text-blue-600 font-bold mb-4"
+                  >
+                    &lt; {label} &gt;
+                  </span>
+                );
+              }
 
-            <Link
-              href="/about"
-              className="block text-blue-600 hover:underline"
-              onClick={() => setOpen(false)}
-            >
-              {t("MobileAbout.pageLink")}
-            </Link>
-
-            <Link href="/contact" className="text-blue-600 hover:underline">
-              {t("contact.title")}
-            </Link>
+              return (
+                <button
+                  key={href}
+                  onClick={() => handleClick(href)}
+                  className="block w-full text-left text-blue-600 hover:underline mb-4"
+                >
+                  {label}
+                </button>
+              );
+            })}
           </div>
         </div>
       )}
