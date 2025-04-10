@@ -7,7 +7,7 @@ import Link from "next/link";
 import MobileMenu from "../components/MobileMenu";
 
 export default function Home() {
-  const { t } = useTranslation("common");
+  const { t, lang } = useTranslation("common");
 
   const [length, setLength] = useState(12);
   const [includeUppercase, setIncludeUppercase] = useState(true);
@@ -47,10 +47,43 @@ export default function Home() {
     setPasswords(newPasswords);
   };
 
+  const enrichedIntro = {
+    fr: (
+      <>
+        <p className="text-gray-700 mb-4 max-w-4xl">
+          Bienvenue sur <strong>Password Tool</strong>, votre solution simple et
+          efficace pour générer des mots de passe sécurisés en ligne. Notre
+          générateur est gratuit, rapide et conçu pour respecter votre vie
+          privée. Aucun mot de passe n'est enregistré ou transmis.
+        </p>
+        <p className="text-gray-700 mb-6 max-w-4xl">
+          Que vous soyez un professionnel de l'informatique, un développeur ou
+          un utilisateur souhaitant renforcer la sécurité de ses comptes, notre
+          outil vous aide à créer des mots de passe robustes et personnalisés en
+          quelques clics.
+        </p>
+      </>
+    ),
+    gb: (
+      <>
+        <p className="text-gray-700 mb-4 max-w-4xl">
+          Welcome to <strong>Password Tool</strong>, your easy and effective
+          solution to generate strong passwords online. Our generator is free,
+          fast, and privacy-friendly. No password is stored or transmitted.
+        </p>
+        <p className="text-gray-700 mb-6 max-w-4xl">
+          Whether you're an IT professional, a developer, or a user looking to
+          strengthen account security, our tool helps you create robust and
+          custom passwords in just a few clicks.
+        </p>
+      </>
+    ),
+  };
+
   return (
     <>
       <Head>
-        <title>{[t("title"), "Password Tool"].join(" | ")}</title>
+        <title>{`${t("title")} | Password Tool`}</title>
         <meta name="description" content={t("description")} />
         <meta
           name="keywords"
@@ -66,17 +99,14 @@ export default function Home() {
         <link rel="apple-touch-icon" href="/favicon.png" />
         <meta name="google-adsense-account" content="ca-pub-2846846678326160" />
       </Head>
+
       <header className="w-full bg-white shadow-md py-4 fixed top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
-            {/* Logo */}
             <h1 className="text-xl font-bold text-blue-600">Password Tool</h1>
-
-            {/* Mobile Menu */}
             <MobileMenu />
           </div>
 
-          {/* Desktop only nav */}
           <nav className="hidden md:flex gap-4 items-center">
             <LangSwitcher />
 
@@ -97,20 +127,37 @@ export default function Home() {
             >
               {t("about.titleAbout")}
             </Link>
+
+            <Link
+              href="/cyber-news"
+              className="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded transition"
+            >
+              Cyber News
+            </Link>
+
+            <Link
+              href="/contact"
+              className="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded transition"
+            >
+              Contact
+            </Link>
+
+            <Link
+              href="/legals"
+              className="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded transition"
+            >
+              Mentions Légales
+            </Link>
           </nav>
         </div>
       </header>
-      {/* Main content */}
+
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4 pt-24">
         <AdBanner />
-
         <h1 className="text-3xl font-bold text-blue-600 mb-2">{t("title")}</h1>
-        <p className="text-gray-700 text-center max-w-2xl mb-6">
-          {t("explanation")}
-        </p>
+        {enrichedIntro[lang]}
 
         <div className="bg-white text-blue-500 p-6 rounded-lg shadow-lg w-full max-w-lg">
-          {/* Password Settings */}
           <div className="mb-4">
             <label className="block text-lg">
               {t("length")} : {length}
@@ -168,7 +215,6 @@ export default function Home() {
             </label>
           </div>
 
-          {/* Buttons */}
           <button
             onClick={() => setPasswords([generatePassword()])}
             className="bg-blue-500 text-white px-4 py-2 rounded mb-4"
@@ -183,7 +229,6 @@ export default function Home() {
             {t("generateMultiple")}
           </button>
 
-          {/* Passwords Display */}
           {passwords.length > 0 && (
             <div className="mt-4">
               {passwords.map((password, index) => (
@@ -200,7 +245,7 @@ export default function Home() {
           )}
         </div>
       </div>
-      {/* FAQ section (home scroll) */}
+
       <section
         id="about-section"
         className="mt-10 text-gray-800 bg-white max-w-6xl mx-auto text-lg leading-relaxed p-6 rounded-lg shadow"

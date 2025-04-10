@@ -68,6 +68,10 @@ export default function MobileMenu() {
             >
               {t("MobileAbout.pageLink")}
             </Link>
+
+            <Link href="/contact" className="text-blue-600 hover:underline">
+              {t("contact.title")}
+            </Link>
           </div>
         </div>
       )}

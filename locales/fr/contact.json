@@ -1,0 +1,11 @@
+{
+  "title": "Contact",
+  "metaDescription": "Contactez-nous pour toute question ou suggestion.",
+  "intro": "Une question, une remarque ? N'hésitez pas à nous contacter via ce formulaire.",
+  "form": {
+    "name": "Nom",
+    "email": "Adresse e-mail",
+    "message": "Votre message",
+    "submit": "Envoyer"
+  }
+}
