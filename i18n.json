@@ -1,24 +1,5 @@
 {
-  "locales": [
-    "gb",
-    "fr",
-    "es",
-    "nl",
-    "de",
-    "pt",
-    "cn",
-    "sa",
-    "in",
-    "jp",
-    "ja",
-    "ru",
-    "it",
-    "kr",
-    "tr",
-    "pl",
-    "bd",
-    "ke"
-  ],
+  "locales": ["gb", "fr"],
   "defaultLocale": "gb",
   "pages": {
     "*": ["common"],
