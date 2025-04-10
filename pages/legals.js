@@ -38,9 +38,9 @@ export default function LegalMentions() {
           </h2>
           <p className="text-gray-800">
             Le propriétaire du site décline toute responsabilité en cas de
-            dommage causé par l'utilisation du site ou de ses outils.
-            L'utilisateur est seul responsable de l'utilisation des mots de
-            passe générés.
+            dommage causé par l&apos;utilisation du site ou de ses outils.
+            L&apos;utilisateur est seul responsable de l&apos;utilisation des
+            mots de passe générés.
           </p>
 
           <h1 className="text-3xl font-bold mt-10 mb-4 text-gray-800">

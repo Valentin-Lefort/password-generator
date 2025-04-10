@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { fetchLatestCyberArticle } from "../../lib/fetchCyberNews";
+import Image from "next/image";
 
 export async function getStaticProps() {
   const article = await fetchLatestCyberArticle();
@@ -11,7 +12,7 @@ export async function getStaticProps() {
 }
 
 export default function CyberNews({ article }) {
-  if (!article) return <p>Pas d'article disponible</p>;
+  if (!article) return <p>Pas d&apos;article disponible</p>;
 
   return (
     <div className="max-w-3xl mx-auto p-6">
@@ -19,7 +20,7 @@ export default function CyberNews({ article }) {
 
       <div className="bg-white shadow-lg rounded-lg p-4">
         {article.image_url && (
-          <img
+          <Image
             src={article.image_url}
             alt={article.title}
             className="w-full rounded mb-4"
@@ -33,7 +34,7 @@ export default function CyberNews({ article }) {
           )}`}
           className="text-blue-600 underline"
         >
-          Lire l'article complet
+          Lire l&apos;article complet
         </Link>
       </div>
     </div>

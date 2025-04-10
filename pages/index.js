@@ -54,13 +54,13 @@ export default function Home() {
           Bienvenue sur <strong>Password Tool</strong>, votre solution simple et
           efficace pour générer des mots de passe sécurisés en ligne. Notre
           générateur est gratuit, rapide et conçu pour respecter votre vie
-          privée. Aucun mot de passe n'est enregistré ou transmis.
+          privée. Aucun mot de passe n&apos;est enregistré ou transmis.
         </p>
         <p className="text-gray-700 mb-6 max-w-4xl">
-          Que vous soyez un professionnel de l'informatique, un développeur ou
-          un utilisateur souhaitant renforcer la sécurité de ses comptes, notre
-          outil vous aide à créer des mots de passe robustes et personnalisés en
-          quelques clics.
+          Que vous soyez un professionnel de l&apos;informatique, un développeur
+          ou un utilisateur souhaitant renforcer la sécurité de ses comptes,
+          notre outil vous aide à créer des mots de passe robustes et
+          personnalisés en quelques clics.
         </p>
       </>
     ),
@@ -72,8 +72,8 @@ export default function Home() {
           fast, and privacy-friendly. No password is stored or transmitted.
         </p>
         <p className="text-gray-700 mb-6 max-w-4xl">
-          Whether you're an IT professional, a developer, or a user looking to
-          strengthen account security, our tool helps you create robust and
+          Whether you&apos;re an IT professional, a developer, or a user looking
+          to strengthen account security, our tool helps you create robust and
           custom passwords in just a few clicks.
         </p>
       </>
