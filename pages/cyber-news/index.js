@@ -20,7 +20,7 @@ export default function CyberNews({ article }) {
 
       <div className="bg-white shadow-lg rounded-lg p-4">
         {article.image_url && (
-          <Image
+          <img
             src={article.image_url}
             alt={article.title}
             className="w-full rounded mb-4"
