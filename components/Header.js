@@ -5,16 +5,17 @@ import LangSwitcher from "./LangSwitcher";
 import MobileMenu from "./MobileMenu";
 
 export default function Header() {
-  const { t } = useTranslation("common");
+  const { t: tCommon } = useTranslation("common");
+  const { t: tLegal } = useTranslation("legal");
   const router = useRouter();
   const currentPath = router.pathname;
 
   const navLinks = [
     { href: "/", label: "Tools", showScroll: true },
-    { href: "/about", label: t("about.titleAbout") },
+    { href: "/about", label: tCommon("about.titleAbout") },
     { href: "/cyber-news", label: "Cyber News" },
     { href: "/contact", label: "Contact" },
-    { href: "/legals", label: "Mentions Légales" },
+    { href: "/legals", label: tLegal("title") },
   ];
 
   return (
