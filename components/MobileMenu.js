@@ -1,20 +1,20 @@
 import { useState } from "react";
 import useTranslation from "next-translate/useTranslation";
 import LangSwitcher from "./LangSwitcher";
-import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
-  const { t } = useTranslation("common");
+  const { t: tCommon } = useTranslation("common");
+  const { t: tContact } = useTranslation("contact");
   const router = useRouter();
   const currentPath = router.pathname;
 
   const navItems = [
     { href: "/", label: "Tools", isScroll: true },
-    { href: "/about", label: t("MobileAbout.pageLink") },
+    { href: "/about", label: tCommon("MobileAbout.pageLink") },
     { href: "/cyber-news", label: "Cyber News" },
-    { href: "/contact", label: t("contact.title") },
+    { href: "/contact", label: tContact("contact.title") },
     { href: "/legals", label: "Mentions Légales" },
   ];
 
