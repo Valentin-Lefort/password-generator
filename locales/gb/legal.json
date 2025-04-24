@@ -1,24 +1,26 @@
 {
-  "title": "Legal Notice",
-  "metaDescription": "Legal information for Password Tool website",
-  "editor": {
-    "title": "Site Publisher",
-    "content": "The site <strong>password-tool.xyz</strong> is published by an independent developer.<br />Contact: <a href=\"mailto:contact@password-tool.xyz\" class=\"text-blue-600 underline\">contact@password-tool.xyz</a>"
-  },
-  "host": {
-    "title": "Hosting",
-    "content": "<strong>Vercel Inc.</strong><br />440 N Barranca Ave #4133, Covina, CA 91723, USA<br /><a href=\"https://vercel.com\" class=\"text-blue-600 underline\" target=\"_blank\" rel=\"noopener noreferrer\">https://vercel.com</a>"
-  },
-  "intellectual": {
-    "title": "Intellectual Property",
-    "content": "All site content is protected by copyright. Unauthorized reproduction is prohibited."
-  },
-  "responsibility": {
-    "title": "Liability",
-    "content": "The tools are provided for informational purposes only. The publisher is not responsible for misuse."
-  },
-  "privacy": {
-    "title": "Personal Data",
-    "content": "This site does not collect or store any personal data."
+  "legal": {
+    "title": "Legal Notice",
+    "metaDescription": "Legal information for Password Tool website",
+    "editor": {
+      "title": "Site Publisher",
+      "content": "The site <strong>password-tool.xyz</strong> is published by an independent developer.<br />Contact: <a href=\"mailto:contact@password-tool.xyz\" class=\"text-blue-600 underline\">contact@password-tool.xyz</a>"
+    },
+    "host": {
+      "title": "Hosting",
+      "content": "<strong>Vercel Inc.</strong><br />440 N Barranca Ave #4133, Covina, CA 91723, USA<br /><a href=\"https://vercel.com\" class=\"text-blue-600 underline\" target=\"_blank\" rel=\"noopener noreferrer\">https://vercel.com</a>"
+    },
+    "intellectual": {
+      "title": "Intellectual Property",
+      "content": "All site content is protected by copyright. Unauthorized reproduction is prohibited."
+    },
+    "responsibility": {
+      "title": "Liability",
+      "content": "The tools are provided for informational purposes only. The publisher is not responsible for misuse."
+    },
+    "privacy": {
+      "title": "Personal Data",
+      "content": "This site does not collect or store any personal data."
+    }
   }
 }

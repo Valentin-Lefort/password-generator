@@ -7,6 +7,7 @@ export default function MobileMenu() {
   const [open, setOpen] = useState(false);
   const { t: tCommon } = useTranslation("common");
   const { t: tContact } = useTranslation("contact");
+  const { t: tLegal } = useTranslation("legal");
   const router = useRouter();
   const currentPath = router.pathname;
 
@@ -15,7 +16,7 @@ export default function MobileMenu() {
     { href: "/about", label: tCommon("MobileAbout.pageLink") },
     { href: "/cyber-news", label: "Cyber News" },
     { href: "/contact", label: tContact("contact.title") },
-    { href: "/legals", label: "Mentions Légales" },
+    { href: "/legals", label: tLegal("legal.title") },
   ];
 
   const handleClick = (href) => {
@@ -64,7 +65,7 @@ export default function MobileMenu() {
               onClick={() => setOpen(false)}
               className="mb-4 text-gray-600 hover:text-gray-800"
             >
-              ✕ {t("close")}
+              ✕ {tCommon("close")}
             </button>
 
             <div className="mb-6 relative">

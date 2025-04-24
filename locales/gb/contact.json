@@ -1,11 +1,13 @@
 {
-  "title": "Contact",
-  "metaDescription": "Contact us for any questions or suggestions.",
-  "intro": "Have a question or suggestion? Feel free to reach out using the form below.",
-  "form": {
-    "name": "Name",
-    "email": "Email address",
-    "message": "Your message",
-    "submit": "Send"
+  "contact": {
+    "title": "Contact",
+    "metaDescription": "Contact us for any questions or suggestions.",
+    "intro": "Have a question or suggestion? Feel free to reach out using the form below.",
+    "form": {
+      "name": "Name",
+      "email": "Email address",
+      "message": "Your message",
+      "submit": "Send"
+    }
   }
 }

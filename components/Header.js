@@ -7,6 +7,7 @@ import MobileMenu from "./MobileMenu";
 export default function Header() {
   const { t: tCommon } = useTranslation("common");
   const { t: tLegal } = useTranslation("legal");
+  const { t: tContact } = useTranslation("contact");
   const router = useRouter();
   const currentPath = router.pathname;
 
@@ -14,16 +15,16 @@ export default function Header() {
     { href: "/", label: "Tools", showScroll: true },
     { href: "/about", label: tCommon("about.titleAbout") },
     { href: "/cyber-news", label: "Cyber News" },
-    { href: "/contact", label: "Contact" },
-    { href: "/legals", label: tLegal("title") },
+    { href: "/contact", label: tContact("contact.title") },
+    { href: "/legals", label: tLegal("legal.title") },
   ];
 
   return (
     <header className="w-full bg-white shadow-md py-4 fixed top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center gap-4">
-          <h1 className="text-xl font-bold text-blue-600">Password Tool</h1>
           <MobileMenu currentPath={currentPath} />
+          <h1 className="text-xl font-bold text-blue-600">Password Tool</h1>
         </div>
 
         <nav className="hidden md:flex gap-4 items-center">
@@ -39,7 +40,7 @@ export default function Header() {
               }
               className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition"
             >
-              {t("about.titleWhy")}
+              {tCommon("about.titleWhy")}
             </button>
           )}
 

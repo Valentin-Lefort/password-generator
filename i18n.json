@@ -2,7 +2,8 @@
   "locales": ["gb", "fr"],
   "defaultLocale": "gb",
   "pages": {
-    "*": ["common"],
-    "/legals": ["legal"]
+    "*": ["common", "contact", "legal"],
+    "/legals": ["legal"],
+    "/contact": ["contact"]
   }
 }
