@@ -17,6 +17,7 @@
     "next-translate-plugin": "^2.6.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
     "react-world-flags": "^1.6.0",
     "twemoji": "^14.0.2"
   },
