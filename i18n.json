@@ -2,8 +2,9 @@
   "locales": ["gb", "fr"],
   "defaultLocale": "gb",
   "pages": {
-    "*": ["common", "contact", "legal"],
+    "*": ["common", "contact", "legal", "cyber-news"],
     "/legals": ["legal"],
-    "/contact": ["contact"]
+    "/contact": ["contact"],
+    "/cyber-news": ["cyber-news"]
   }
 }
