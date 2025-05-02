@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import "flag-icons/css/flag-icons.min.css";
 import "../styles/globals.css";
+import Header from "../components/Header";
 
 <link
   rel="preload"
@@ -12,6 +13,7 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Header />
       <Component {...pageProps} />
       <Analytics />
     </>
