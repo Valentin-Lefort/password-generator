@@ -1,6 +1,7 @@
+import Head from "next/head";
 import Link from "next/link";
-import { fetchLatestCyberArticle } from "../../lib/fetchCyberNews"; // chemin adapté
-import Header from "../../components/Header"; // chemin adapté
+import { fetchLatestCyberArticle } from "../../lib/fetchCyberNews";
+import Header from "../../components/Header";
 import articles from "../../data/articles";
 import { Buffer } from "buffer";
 import { useRouter } from "next/router";
@@ -16,10 +17,31 @@ export async function getStaticProps(context) {
 
 export default function CyberNews({ article }) {
   const { locale } = useRouter();
-  const language = locale || "fr"; // Locale actuelle
+  const language = locale || "fr";
 
   return (
     <>
+      <Head>
+        <title>
+          {language === "fr"
+            ? "Actualités cybersécurité et conseils pratiques | Password Tool"
+            : "Cybersecurity news and practical tips | Password Tool"}
+        </title>
+        <meta
+          name="description"
+          content={
+            language === "fr"
+              ? "Retrouvez les dernières actualités cybersécurité, analyses et conseils pour protéger vos comptes et données."
+              : "Find the latest cybersecurity news, analysis and tips to protect your accounts and data."
+          }
+        />
+        <meta property="og:title" content="Cyber News | Password Tool" />
+        <meta
+          property="og:description"
+          content="Latest cybersecurity news and tips."
+        />
+        <meta property="og:type" content="website" />
+      </Head>
       <Header />
       <main className="pt-24">
         <div className="max-w-5xl mx-auto p-6">
@@ -45,7 +67,7 @@ export default function CyberNews({ article }) {
                 <Link
                   href={`/cyber-news/${Buffer.from(article.url).toString(
                     "base64"
-                  )}`} // Lien vers l'article codé en base64
+                  )}`}
                   className="text-blue-600 underline"
                 >
                   {language === "fr"
@@ -70,17 +92,28 @@ export default function CyberNews({ article }) {
                 className="bg-white shadow rounded-lg p-4 flex flex-col justify-between"
               >
                 <h3 className="text-lg font-bold mb-2">
-                  {item.title[language]}{" "}
-                  {/* Affichage du titre en fonction de la locale */}
+                  {item.title[language]}
                 </h3>
-                <p className="text-gray-600 mb-4">{item.excerpt[language]}</p>{" "}
-                {/* Extrait de l'article */}
+                <p className="text-gray-600 mb-4">{item.excerpt[language]}</p>
+                <div className="bg-blue-50 border-l-4 border-blue-400 p-3 mb-4">
+                  <strong>
+                    {language === "fr"
+                      ? "Analyse & Conseil :"
+                      : "Analysis & Tip:"}
+                  </strong>
+                  <p className="text-sm mt-1">
+                    {item.analysis && item.analysis[language]
+                      ? item.analysis[language]
+                      : language === "fr"
+                      ? "Pour approfondir, pensez à vérifier la source de chaque actualité et appliquez les recommandations de sécurité évoquées."
+                      : "For further insight, always check the source of each news and apply the mentioned security tips."}
+                  </p>
+                </div>
                 <Link
                   href={`/cyber-news/${item.id}`}
                   className="text-blue-600 underline mt-auto"
                 >
-                  {language === "fr" ? "Lire plus" : "Read more"}{" "}
-                  {/* Lien vers l'article */}
+                  {language === "fr" ? "Lire plus" : "Read more"}
                 </Link>
               </div>
             ))}

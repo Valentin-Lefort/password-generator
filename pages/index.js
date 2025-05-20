@@ -1,14 +1,12 @@
-import { useState } from "react";
 import Head from "next/head";
+import Header from "../components/Header";
+import { useState } from "react";
 import useTranslation from "next-translate/useTranslation";
-import LangSwitcher from "../components/LangSwitcher";
 import AdBanner from "../components/AdBanner";
 import Link from "next/link";
-import MobileMenu from "../components/MobileMenu";
 
 export default function Home() {
   const { t, lang } = useTranslation("common");
-
   const [length, setLength] = useState(12);
   const [includeUppercase, setIncludeUppercase] = useState(true);
   const [includeLowercase, setIncludeLowercase] = useState(true);
@@ -24,17 +22,15 @@ export default function Home() {
     if (includeUppercase) chars += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     if (includeNumbers) chars += "0123456789";
     if (includeSymbols) chars += "!@#$%^&*()_+[]{}|;:,.<>?";
-
     if (excludeSimilar) {
       chars = chars
         .split("")
         .filter((c) => !similarCharacters.includes(c))
         .join("");
     }
-
     let newPassword = "";
     for (let i = 0; i < length; i++) {
-      newPassword += chars[Math.floor(Math.random() * chars.length)];
+      newPassword += chars.charAt(Math.floor(Math.random() * chars.length));
     }
     return newPassword;
   };
@@ -83,74 +79,26 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{`${t("title")} | Password Tool`}</title>
-        <meta name="description" content={t("description")} />
+        <title>
+          {lang === "fr"
+            ? "Générateur de Mot de Passe Sécurisé en Ligne | Password Tool"
+            : "Secure Password Generator Online | Password Tool"}
+        </title>
         <meta
-          name="keywords"
-          content="générateur de mot de passe, mot de passe sécurisé, password generator, générer un mot de passe"
+          name="description"
+          content={
+            lang === "fr"
+              ? "Générez des mots de passe forts, uniques et sécurisés en quelques clics. Outil gratuit, rapide et respectueux de la vie privée."
+              : "Generate strong, unique and secure passwords in seconds. Free, fast and privacy-friendly tool."
+          }
         />
         <meta property="og:title" content={t("title")} />
         <meta property="og:description" content={t("description")} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://password-tool.xyz/" />
-
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
-        <meta name="google-adsense-account" content="ca-pub-2846846678326160" />
       </Head>
 
-      <header className="w-full bg-white shadow-md py-4 fixed top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-          <div className="flex items-center gap-4">
-            <h1 className="text-xl font-bold text-blue-600">Password Tool</h1>
-            <MobileMenu />
-          </div>
-
-          <nav className="hidden md:flex gap-4 items-center">
-            <LangSwitcher />
-
-            <button
-              onClick={() =>
-                document
-                  .getElementById("about-section")
-                  ?.scrollIntoView({ behavior: "smooth" })
-              }
-              className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition"
-            >
-              {t("about.titleWhy")}
-            </button>
-
-            <Link
-              href="/about"
-              className="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded transition"
-            >
-              {t("about.titleAbout")}
-            </Link>
-
-            <Link
-              href="/cyber-news"
-              className="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded transition"
-            >
-              Cyber News
-            </Link>
-
-            <Link
-              href="/contact"
-              className="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded transition"
-            >
-              Contact
-            </Link>
-
-            <Link
-              href="/legals"
-              className="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded transition"
-            >
-              Mentions Légales
-            </Link>
-          </nav>
-        </div>
-      </header>
+      <Header />
 
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4 pt-24">
         <AdBanner />
@@ -279,6 +227,16 @@ export default function Home() {
         <p className="mb-2">{t("home.explanation12")}</p>
         <p className="mb-2">{t("home.explanation13")}</p>
         <p className="mb-2">{t("home.explanation14")}</p>
+        <p className="mt-4">
+          <Link
+            href="/cyber-news/choisir-gestionnaire"
+            className="text-blue-600 underline"
+          >
+            {lang === "fr"
+              ? "Voir aussi : Comment choisir un gestionnaire de mots de passe ?"
+              : "See also: How to choose a password manager?"}
+          </Link>
+        </p>
       </section>
     </>
   );

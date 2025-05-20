@@ -14,7 +14,7 @@ export default function MobileMenu() {
   const navItems = [
     { href: "/", label: "Tools", isScroll: true },
     { href: "/about", label: tCommon("MobileAbout.pageLink") },
-    { href: "/cyber-news", label: "Cyber News" },
+    { href: "/cyber-news", label: "Articles & Cyber News" },
     { href: "/contact", label: tContact("contact.title") },
     { href: "/legals", label: tLegal("legal.title") },
   ];

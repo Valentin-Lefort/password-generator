@@ -14,7 +14,7 @@ export default function Header() {
   const navLinks = [
     { href: "/", label: "Tools", showScroll: true },
     { href: "/about", label: tCommon("about.titleAbout") },
-    { href: "/cyber-news", label: "Cyber News" },
+    { href: "/cyber-news", label: "Articles & Cyber News" },
     { href: "/contact", label: tContact("contact.title") },
     { href: "/legals", label: tLegal("legal.title") },
   ];
@@ -31,18 +31,6 @@ export default function Header() {
           <LangSwitcher />
 
           {/* Affiche scroll vers section si on est sur la homepage */}
-          {currentPath === "/" && (
-            <button
-              onClick={() =>
-                document
-                  .getElementById("about-section")
-                  ?.scrollIntoView({ behavior: "smooth" })
-              }
-              className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition"
-            >
-              {tCommon("about.titleWhy")}
-            </button>
-          )}
 
           {navLinks.map((item) => {
             if (item.href === currentPath) {
