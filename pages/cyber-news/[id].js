@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import articles from "../../data/articles";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 export async function getStaticPaths({ locales }) {
   const paths = [];
@@ -92,9 +93,9 @@ export default function ArticlePage({ article }) {
         <p className="mb-6 text-gray-600">{article.excerpt?.[lang]}</p>
         {renderContent(article.content?.[lang] || [])}
         <div className="mt-8">
-          <a href="/cyber-news" className="text-blue-600 underline">
+          <Link href="/cyber-news" className="text-blue-600 underline">
             {lang === "fr" ? "← Retour aux actualités" : "← Back to news"}
-          </a>
+          </Link>
         </div>
       </main>
     </>
