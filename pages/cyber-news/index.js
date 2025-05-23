@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import articles from "../../data/articles";
 import { Buffer } from "buffer";
 import { useRouter } from "next/router";
+import Footer from "@/components/Footer";
 
 export async function getStaticProps(context) {
   const locale = context.locale || "fr"; // Localisation par défaut
@@ -120,6 +121,7 @@ export default function CyberNews({ article }) {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   );
 }

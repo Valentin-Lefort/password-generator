@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Header from "../components/Header";
+import Footer from "@/components/Footer";
 
 export default function ContactPage() {
   const { locale } = useRouter();
@@ -64,7 +65,7 @@ export default function ContactPage() {
       </Head>
       <Header />
 
-      <main className="max-w-3xl mx-auto pt-24 px-4 py-12 text-gray-800">
+      <main className="h-screen max-w-3xl mx-auto pt-24 px-4 py-12 text-gray-800">
         <h1 className="text-3xl font-bold mb-6">{heading}</h1>
         {text}
 
@@ -112,6 +113,7 @@ export default function ContactPage() {
           </button>
         </form>
       </main>
+      <Footer />
     </>
   );
 }

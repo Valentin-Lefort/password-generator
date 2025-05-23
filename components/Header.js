@@ -13,10 +13,10 @@ export default function Header() {
 
   const navLinks = [
     { href: "/", label: "Tools", showScroll: true },
-    { href: "/about", label: tCommon("about.titleAbout") },
+    // { href: "/about", label: tCommon("about.titleAbout") },
     { href: "/cyber-news", label: "Articles & Cyber News" },
-    { href: "/contact", label: tContact("contact.title") },
-    { href: "/legals", label: tLegal("legal.title") },
+    // { href: "/contact", label: tContact("contact.title") },
+    // { href: "/legals", label: tLegal("legal.title") },
   ];
 
   return (

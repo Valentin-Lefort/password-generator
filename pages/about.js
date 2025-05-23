@@ -1,6 +1,7 @@
 import Head from "next/head";
 import useTranslation from "next-translate/useTranslation";
 import Header from "../components/Header";
+import Footer from "@/components/Footer";
 
 export default function About() {
   const { t } = useTranslation("common");
@@ -26,6 +27,7 @@ export default function About() {
           <p>{t("about.free")}</p>
         </div>
       </main>
+      <Footer />
     </>
   );
 }

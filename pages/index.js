@@ -4,6 +4,7 @@ import { useState } from "react";
 import useTranslation from "next-translate/useTranslation";
 import AdBanner from "../components/AdBanner";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const { t, lang } = useTranslation("common");
@@ -238,6 +239,7 @@ export default function Home() {
           </Link>
         </p>
       </section>
+      <Footer />
     </>
   );
 }
