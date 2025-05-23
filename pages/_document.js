@@ -1,4 +1,3 @@
-// pages/_document.js
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
@@ -6,12 +5,20 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* Charger le script Google AdSense */}
+          {/* Consent Mode Google : initialise le consentement à "denied" par défaut */}
           <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2846846678326160"
-            crossorigin="anonymous"
-          ></script>
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('consent', 'default', {
+                  ad_storage: 'denied',
+                  analytics_storage: 'denied'
+                });
+              `,
+            }}
+          />
+          {/* NE PAS charger AdSense ici, il sera chargé dynamiquement après consentement */}
         </Head>
         <body>
           <Main />
