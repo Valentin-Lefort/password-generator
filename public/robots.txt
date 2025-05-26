@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://https://password-tool.xyz/sitemap.xml
+Sitemap: https://password-tool.xyz/sitemap.xml
