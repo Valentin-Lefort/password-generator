@@ -65,16 +65,16 @@ export default function CyberNews({ article }) {
               <h2 className="text-xl font-semibold mb-2">{article.title}</h2>
               <p className="text-gray-700 mb-4">{article.description}</p>
               {article.url ? (
-                <Link
-                  href={`/cyber-news/${Buffer.from(article.url).toString(
-                    "base64"
-                  )}`}
+                <a
+                  href={article.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-600 underline"
                 >
                   {language === "fr"
                     ? "Lire l'article complet"
                     : "Read full article"}
-                </Link>
+                </a>
               ) : (
                 <p className="text-red-500">
                   {language === "fr"

@@ -1,5 +1,85 @@
 const articles = [
   {
+    id: "passphrase-article",
+    title: {
+      fr: "Les phrases de passe : sécurité et exemples concrets",
+      gb: "Passphrases: Security and Practical Examples",
+    },
+    excerpt: {
+      fr: "Découvrez pourquoi et comment utiliser une phrase de passe, avec des exemples efficaces en français et en anglais.",
+      gb: "Learn why and how to use a passphrase, with effective examples in French and English.",
+    },
+    content: {
+      fr: [
+        {
+          type: "h1",
+          text: "Les phrases de passe : la sécurité par la simplicité",
+        },
+        {
+          type: "p",
+          text: "Une phrase de passe est une suite de mots ou une phrase entière, facile à retenir mais très difficile à deviner pour un attaquant. Elle est souvent bien plus longue qu’un mot de passe classique, ce qui la rend beaucoup plus robuste.",
+        },
+        { type: "h2", text: "Exemples de phrases de passe efficaces" },
+        {
+          type: "ul",
+          items: [
+            "MonChienAimeLesCroquettesEn2025!",
+            "LeSoleilBrilleToujoursAprèsLaPluie",
+            "J'adore_manger_des_crêpes_le_dimanche",
+            "ParisEstBelleAuPrintemps123",
+          ],
+        },
+        { type: "h2", text: "Conseils pratiques" },
+        {
+          type: "ul",
+          items: [
+            "Utilisez une phrase qui a du sens pour vous.",
+            "Ajoutez des chiffres ou des caractères spéciaux.",
+            "Évitez les citations trop connues ou les phrases célèbres.",
+            "Plus la phrase est longue, plus elle est robuste.",
+          ],
+        },
+        { type: "h2", text: "Conclusion" },
+        {
+          type: "p",
+          text: "La phrase de passe combine simplicité de mémorisation et sécurité maximale. Adoptez-la pour vos comptes les plus importants !",
+        },
+      ],
+      gb: [
+        { type: "h1", text: "Passphrases: Security Made Simple" },
+        {
+          type: "p",
+          text: "A passphrase is a sequence of words or a full sentence, easy to remember but very hard to guess for an attacker. It is usually much longer than a classic password, making it far more secure.",
+        },
+        { type: "h2", text: "Good passphrase examples" },
+        {
+          type: "ul",
+          items: [
+            "MyDogLovesChickenIn2025!",
+            "TheSunAlwaysShinesAfterRain",
+            "ILove_eating_pancakes_on_Sunday",
+            "LondonIsBeautifulInSpring123",
+          ],
+        },
+        { type: "h2", text: "Practical tips" },
+        {
+          type: "ul",
+          items: [
+            "Use a phrase that means something to you.",
+            "Add numbers or special characters.",
+            "Avoid famous quotes or well-known phrases.",
+            "The longer the phrase, the stronger it is.",
+          ],
+        },
+        { type: "h2", text: "Conclusion" },
+        {
+          type: "p",
+          text: "A passphrase combines easy memorization with maximum security. Use it for your most important accounts!",
+        },
+      ],
+    },
+  },
+  {
     id: "password-manager-2025",
     title: {
       fr: "Pourquoi utiliser un gestionnaire de mots de passe en 2025 ?",
