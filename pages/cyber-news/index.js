@@ -36,6 +36,14 @@ export default function CyberNews({ article }) {
               : "Find the latest cybersecurity news, analysis and tips to protect your accounts and data."
           }
         />
+        <meta
+          name="keywords"
+          content={
+            language === "fr"
+              ? "cybersécurité, actualités cybersécurité, conseils sécurité, mot de passe, protection données"
+              : "cybersecurity, cybersecurity news, security tips, password, data protection"
+          }
+        />
         <link rel="canonical" href="https://password-tool.xyz/cyber-news" />
       </Head>
       <Header />
