@@ -3,13 +3,13 @@ import Link from "next/link";
 import { fetchLatestCyberArticle } from "../../lib/fetchCyberNews";
 import Header from "../../components/Header";
 import articles from "../../data/articles";
-import { Buffer } from "buffer";
 import { useRouter } from "next/router";
 import Footer from "@/components/Footer";
 
 export async function getStaticProps(context) {
-  const locale = context.locale || "fr"; // Localisation par défaut
+  const locale = context.locale || "fr"; // Récupère la langue côté serveur
   const article = await fetchLatestCyberArticle(locale);
+
   return {
     props: { article },
     revalidate: 86400,
