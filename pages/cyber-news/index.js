@@ -36,12 +36,7 @@ export default function CyberNews({ article }) {
               : "Find the latest cybersecurity news, analysis and tips to protect your accounts and data."
           }
         />
-        <meta property="og:title" content="Cyber News | Password Tool" />
-        <meta
-          property="og:description"
-          content="Latest cybersecurity news and tips."
-        />
-        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://password-tool.xyz/cyber-news" />
       </Head>
       <Header />
       <main className="pt-24">

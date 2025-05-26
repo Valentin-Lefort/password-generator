@@ -184,9 +184,20 @@ export default function LegalMentions() {
   return (
     <>
       <Head>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta name="robots" content="index, follow" />
+        <title>
+          {locale === "fr"
+            ? "Mentions légales & Politique de confidentialité | Password Tool"
+            : "Legal Notice & Privacy Policy | Password Tool"}
+        </title>
+        <meta
+          name="description"
+          content={
+            locale === "fr"
+              ? "Mentions légales et politique de confidentialité du site Password Tool."
+              : "Legal information and privacy policy for the Password Tool website."
+          }
+        />
+        <link rel="canonical" href="https://password-tool.xyz/legals" />
       </Head>
       <Header />
       <main className="min-h-screen pt-24 px-4">{legal}</main>

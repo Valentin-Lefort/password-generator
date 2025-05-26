@@ -6,10 +6,22 @@ export default function GuideSecuriteMotDePasse() {
   return (
     <>
       <Head>
-        <title>Guide : Sécurité des mots de passe | Password Tool</title>
+        <title>
+          {locale === "fr"
+            ? "Guide : Sécurité des mots de passe | Password Tool"
+            : "Password Security Guide | Password Tool"}
+        </title>
         <meta
           name="description"
-          content="Guide complet pour comprendre et renforcer la sécurité de vos mots de passe. Conseils pratiques, exemples et bonnes pratiques."
+          content={
+            locale === "fr"
+              ? "Guide complet pour comprendre et renforcer la sécurité de vos mots de passe. Conseils pratiques, exemples et bonnes pratiques."
+              : "Complete guide to understanding and improving your password security. Tips, examples and best practices."
+          }
+        />
+        <link
+          rel="canonical"
+          href="https://password-tool.xyz/guide/password-security"
         />
       </Head>
       <Header />

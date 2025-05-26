@@ -94,21 +94,26 @@ export default function Home() {
       <Head>
         <title>
           {lang === "fr"
-            ? "Générateur de Mot de Passe Sécurisé en Ligne | Password Tool"
-            : "Secure Password Generator Online | Password Tool"}
+            ? "Générateur de mot de passe sécurisé en ligne | Password Tool"
+            : "Password Generator – Secure & Random Passwords Online | Password Tool"}
         </title>
         <meta
           name="description"
           content={
             lang === "fr"
-              ? "Générez des mots de passe forts, uniques et sécurisés en quelques clics. Outil gratuit, rapide et respectueux de la vie privée."
-              : "Generate strong, unique and secure passwords in seconds. Free, fast and privacy-friendly tool."
+              ? "Créez des mots de passe forts, uniques et sécurisés en un clic. Générateur de mot de passe gratuit, rapide et respectueux de la vie privée."
+              : "Generate strong, unique and secure passwords in seconds. Free, fast and privacy-friendly password generator."
           }
         />
-        <meta property="og:title" content={t("title")} />
-        <meta property="og:description" content={t("description")} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://password-tool.xyz/" />
+        <meta
+          name="keywords"
+          content={
+            lang === "fr"
+              ? "générateur de mot de passe, mot de passe sécurisé, mot de passe fort, générateur en ligne"
+              : "password generator, secure password, random password, strong password, online password generator"
+          }
+        />
+        <link rel="canonical" href="https://password-tool.xyz/" />
       </Head>
 
       <Header />
