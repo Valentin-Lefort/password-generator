@@ -72,7 +72,6 @@ export default function ArticlePage({ article }) {
           property="og:description"
           content={article.excerpt?.[lang] || ""}
         />
-        <meta property="og:image" content={imageUrl} />
         <meta property="og:type" content="article" />
         <script
           type="application/ld+json"

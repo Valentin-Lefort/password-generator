@@ -61,12 +61,7 @@ export default function CyberNews({ article }) {
               {article.urlToImage && (
                 <img
                   src={article.urlToImage}
-                  alt={
-                    article.title ||
-                    (language === "fr"
-                      ? "Image d'actualité cybersécurité"
-                      : "Cybersecurity news image")
-                  }
+                  alt={article.title}
                   className="w-full h-64 object-cover rounded mb-4"
                 />
               )}
