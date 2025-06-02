@@ -8,8 +8,9 @@ export default function ContactPage() {
 
   const content = {
     fr: {
-      title: "Contact",
-      description: "Contactez-nous pour toute question ou suggestion.",
+      title: "Contactez Password Tool",
+      metaDescription:
+        "Contactez l'équipe de Password Tool pour toute question, suggestion ou demande d'assistance concernant notre générateur de mot de passe et nos conseils en cybersécurité.", // SEO: Description détaillée
       heading: "Nous contacter",
       text: (
         <>
@@ -30,8 +31,9 @@ export default function ContactPage() {
       },
     },
     en: {
-      title: "Contact",
-      description: "Contact us for any question or suggestion.",
+      title: "Contact Password Tool", // SEO: More specific title
+      metaDescription:
+        "Contact the Password Tool team for any questions, suggestions, or support requests regarding our password generator and cybersecurity advice.", // SEO: Detailed description
       heading: "Get in Touch",
       text: (
         <>
@@ -60,12 +62,16 @@ export default function ContactPage() {
     <>
       <Head>
         <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta name="robots" content="index, follow" />
+        <meta name="description" content={ContactPage.metaDescription} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={ContactPage.metaDescription} />
+        <link
+          rel="canonical"
+          href={`https://password-tool.xyz/${locale}/contact`}
+        />
       </Head>
       <Header />
-
-      <main className="h-screen max-w-3xl mx-auto pt-24 px-4 py-12 text-gray-800">
+      <main className="min-h-screen pt-24 px-4">
         <h1 className="text-3xl font-bold mb-6">{heading}</h1>
         {text}
 
